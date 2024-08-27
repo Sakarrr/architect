@@ -13,7 +13,7 @@ $corners: (
 }
 
 @each $classname, $padding in $corners {
-  @for $i from 1 to 18 {
+  @for $i from 0 to 18 {
     .#{$classname}-#{$i} {
       #{$padding}: #{$i * 5}px;
     }
@@ -21,7 +21,7 @@ $corners: (
 }
 
 @each $classname, $padding in $corners {
-  @for $i from 1 to 18 {
+  @for $i from 0 to 18 {
     @each $screen in $screens {
       .#{$classname}-#{$screen}-#{$i} {
         #{$padding}: #{$i * 5}px;

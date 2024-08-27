@@ -160,7 +160,7 @@
     <!-- Contact Section -->
     <div class="arc-contact" id="arc-contact">
         <div class="arc-container">
-            <div class="arc-section-header">
+            <div class="arc-section-header arc-pb-0">
                 <h2 class="section-heading">Contact</h2>
 
                 <div class="section-description">
