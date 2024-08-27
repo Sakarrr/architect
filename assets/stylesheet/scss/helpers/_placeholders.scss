@@ -2,12 +2,3 @@
   display: flex;
   flex-wrap: wrap;
 }
-
-%clearfix {
-  &::before,
-  &::after {
-    content: "";
-    display: block;
-    clear: left;
-  }
-}
