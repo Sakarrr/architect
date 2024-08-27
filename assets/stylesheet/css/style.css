@@ -8,8 +8,14 @@
   clear: left; }
 
 /* Container classes */
-.arc-container {
+.arc-container-fluid {
+  width: 100%;
   max-width: 100%; }
+
+.arc-container {
+  width: 1564px;
+  max-width: 100%;
+  margin: auto; }
 
 .arc-section-margin-top {
   margin-top: 60px; }
@@ -273,6 +279,12 @@ a {
 .arc-fs-xxl {
   font-size: 64px; }
 
+.arc-section-header {
+  padding: 32px 0; }
+  .arc-section-header .section-heading {
+    padding: 16px 0;
+    border-bottom: 1px solid #f1f1f1; }
+
 .arc-header {
   position: fixed;
   padding: 8px 16px;
@@ -325,6 +337,21 @@ a {
         @media screen and (min-width: 576px) {
           .arc-hero .arc-hero-text h1 .hero-text-small {
             display: inline-block; } }
+
+.arc-projects .arc-container {
+  padding: 8px 32px; }
+  .arc-projects .arc-container .arc-project {
+    position: relative;
+    padding: 0 8px;
+    margin-bottom: 16px; }
+    .arc-projects .arc-container .arc-project .arc-project-tag {
+      position: absolute;
+      padding: 8px 16px;
+      background-color: #000;
+      color: #fff; }
+
+.arc-about .arc-container {
+  padding: 8px 32px; }
 
 /* Margin Classes */
 .arc-m-auto {
