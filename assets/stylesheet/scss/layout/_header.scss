@@ -1,4 +1,4 @@
-.arc-header {
+.#{$prefix}-header {
   position: fixed;
   padding: 8px 16px;
   letter-spacing: 4px;
@@ -8,12 +8,12 @@
   width: 100%;
   z-index: 1;
 
-  .arc-row {
+  .#{$prefix}-row {
     justify-content: space-between;
     align-items: center;
   }
 
-  .arc-branding {
+  .#{$prefix}-branding {
     padding: 8px 16px;
 
     &:hover {
@@ -21,7 +21,7 @@
     }
   }
 
-  .arc-menu {
+  .#{$prefix}-menu {
     display: none;
 
     li {

@@ -1,4 +1,4 @@
-.arc-hero {
+.#{$prefix}-hero {
   max-width: 1500px;
   margin: auto;
   position: relative;
@@ -8,7 +8,7 @@
     height: auto;
   }
 
-  .arc-hero-text {
+  .#{$prefix}-hero-text {
     position: absolute;
     color: #fff;
     text-align: center;
@@ -37,16 +37,16 @@
   }
 }
 
-.arc-projects {
-  .arc-container {
+.#{$prefix}-projects {
+  .#{$prefix}-container {
     padding: 8px 32px;
 
-    .arc-project {
+    .#{$prefix}-project {
       position: relative;
       padding: 0 8px;
       margin-bottom: 16px;
 
-      .arc-project-tag {
+      .#{$prefix}-project-tag {
         position: absolute;
         padding: 8px 16px;
         background-color: #000;
@@ -56,11 +56,11 @@
   }
 }
 
-.arc-about {
-  .arc-container {
+.#{$prefix}-about {
+  .#{$prefix}-container {
     padding: 8px 32px;
 
-    .arc-designer-card {
+    .#{$prefix}-designer-card {
       padding: 0 8px;
       margin-bottom: 16px;
 
@@ -90,8 +90,8 @@
   }
 }
 
-.arc-contact {
-  .arc-section-header {
+.#{$prefix}-contact {
+  .#{$prefix}-section-header {
     padding-bottom: 0;
   }
 }
