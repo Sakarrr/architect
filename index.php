@@ -164,7 +164,7 @@
             </div>
 
             <div class="arc-form">
-                <form class="contact-form">
+                <form class="arc-contact-form">
                     <input type="text" placeholder="Name">
                     <input type="text" placeholder="Email">
                     <input type="text" placeholder="Subject">
