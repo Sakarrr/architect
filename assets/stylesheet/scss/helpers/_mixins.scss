@@ -3,7 +3,7 @@
   max-width: $width;
 }
 
-@mixin btnHover($box-shadow, $transform: none) {
+@mixin btnHover($box-shadow: 0, $transform: none) {
   &:hover {
     cursor: pointer;
     box-shadow: $box-shadow;

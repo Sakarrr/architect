@@ -26,15 +26,17 @@
     </div>
 
     <div class="arc-hero">
-        <div class="arc-hero-image">
-            <img src="https://www.w3schools.com/w3images/architect.jpg">
-        </div>
+        <div class="arc-container">
+            <div class="arc-hero-image">
+                <img src="https://www.w3schools.com/w3images/architect.jpg">
+            </div>
 
-        <div class="arc-hero-text">
-            <h1>
-                <span class="hero-text-large">BR</span>
-                <span class="hero-text-small">Architects</span>
-            </h1>
+            <div class="arc-hero-text">
+                <h1>
+                    <span class="hero-text-large">BR</span>
+                    <span class="hero-text-small">Architects</span>
+                </h1>
+            </div>
         </div>
     </div>
 

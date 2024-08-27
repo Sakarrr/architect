@@ -7,6 +7,7 @@
 
   &:hover {
     background-color: #ccc;
+    @include transition;
   }
 
   &.#{$prefix}-btn-fluid {
@@ -20,6 +21,7 @@
     &:hover {
       color: #000;
       background-color: #ccc;
+      @include transition;
     }
   }
 }

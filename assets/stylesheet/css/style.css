@@ -291,7 +291,11 @@ a {
   padding: 8px 12px;
   cursor: pointer; }
   .arc-btn-primary:hover {
-    background-color: #ccc; }
+    background-color: #ccc;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    transition: all 0.4s; }
   .arc-btn-primary.arc-btn-fluid {
     width: 100%; }
   .arc-btn-primary.arc-btn-bg-black {
@@ -299,7 +303,11 @@ a {
     color: #fff; }
     .arc-btn-primary.arc-btn-bg-black:hover {
       color: #000;
-      background-color: #ccc; }
+      background-color: #ccc;
+      -webkit-transition: all 0.4s;
+      -moz-transition: all 0.4s;
+      -ms-transition: all 0.4s;
+      transition: all 0.4s; }
 
 .arc-contact-form {
   margin-bottom: 32px; }
@@ -360,8 +368,6 @@ a {
     color: #fff; }
 
 .arc-hero {
-  max-width: 1500px;
-  margin: auto;
   position: relative; }
   .arc-hero img {
     max-width: 100%;
