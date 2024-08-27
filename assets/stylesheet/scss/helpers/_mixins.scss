@@ -1,0 +1,35 @@
+@mixin flex-width($width) {
+  flex: 0 0 $width;
+  max-width: $width;
+}
+
+@mixin btnHover($box-shadow, $transform: none) {
+  &:hover {
+    cursor: pointer;
+    box-shadow: $box-shadow;
+    color: #fff;
+    transform: $transform;
+    @include transition;
+  }
+}
+
+@mixin transform($transform) {
+  -webkit-transform: #{$transform};
+  -moz-transform: #{$transform};
+  -ms-transform: #{$transform};
+  transform: #{$transform};
+}
+
+@mixin transition($transition: all 0.4s) {
+  -webkit-transition: #{$transition};
+  -moz-transition: #{$transition};
+  -ms-transition: #{$transition};
+  transition: #{$transition};
+}
+
+@mixin animation($animation) {
+  -webkit-animation: #{$animation};
+  -moz-animation: #{$animation};
+  -ms-animation: #{$animation};
+  animation: #{$animation};
+}

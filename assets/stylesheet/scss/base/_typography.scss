@@ -1,0 +1,6 @@
+// Typography classes
+@each $name, $size in $font-sizes {
+  .#{$prefix}-fs-#{$name} {
+    font-size: #{$size};
+  }
+}

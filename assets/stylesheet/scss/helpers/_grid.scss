@@ -1,0 +1,41 @@
+$screens: sm, md, lg;
+$cols: 2, 3, 4, 6;
+
+/* Container classes */
+.#{$prefix}-container {
+  max-width: 100%;
+}
+
+.#{$prefix}-section-margin-top {
+  margin-top: 60px;
+
+  @include breakpoints("md") {
+    margin-top: 100px;
+  }
+}
+
+.#{$prefix}-row {
+  @extend %flex;
+}
+
+.#{$prefix}-col {
+  @include flex-width(100%);
+}
+
+@each $col in $cols {
+  .#{$prefix}-col-#{$col} {
+    flex: 0 0 percentage($col/12);
+    max-width: percentage($col/12);
+  }
+}
+
+@each $screen in $screens {
+  @each $col in $cols {
+    .#{$prefix}-col-#{$screen}-#{$col} {
+      @include breakpoints($screen) {
+        flex: 0 0 percentage($col/12);
+        max-width: percentage($col/12);
+      }
+    }
+  }
+}

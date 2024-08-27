@@ -1,0 +1,31 @@
+/* Padding Classes */
+$screens: sm, md, lg;
+
+$corners: (
+  "#{$prefix}-pt": "padding-top",
+  "#{$prefix}-pb": "padding-bottom",
+  "#{$prefix}-pr": "padding-right",
+  "#{$prefix}-pl": "padding-left",
+);
+
+.#{$prefix}-p-auto {
+  padding: auto;
+}
+
+@each $classname, $padding in $corners {
+  @for $i from 1 to 18 {
+    .#{$classname}-#{$i} {
+      #{$padding}: #{$i * 5}px;
+    }
+  }
+}
+
+@each $classname, $padding in $corners {
+  @for $i from 1 to 18 {
+    @each $screen in $screens {
+      .#{$classname}-#{$screen}-#{$i} {
+        #{$padding}: #{$i * 5}px;
+      }
+    }
+  }
+}

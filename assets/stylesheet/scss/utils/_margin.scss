@@ -1,0 +1,31 @@
+/* Margin Classes */
+$screens: sm, md, lg;
+
+$corners: (
+  "#{$prefix}-mt-": "margin-top",
+  "#{$prefix}-mb-": "margin-bottom",
+  "#{$prefix}-mr-": "margin-right",
+  "#{$prefix}-ml-": "margin-left",
+);
+
+.#{$prefix}-m-auto {
+  margin: auto;
+}
+
+@each $classname, $margin in $corners {
+  @for $i from 1 to 18 {
+    .#{$classname + $i} {
+      #{$margin}: #{$i * 5}px;
+    }
+  }
+}
+
+@each $classname, $margin in $corners {
+  @for $i from 1 to 19 {
+    @each $screen in $screens {
+      .#{$classname + $screen}-#{$i} {
+        #{$margin}: #{$i * 5}px;
+      }
+    }
+  }
+}

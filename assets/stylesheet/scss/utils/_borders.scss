@@ -1,0 +1,28 @@
+/* Border Classes */
+$screens: sm, md, lg;
+
+$borders: (
+  "#{$prefix}-border": "border",
+  "#{$prefix}-border-top": "border-top",
+  "#{$prefix}-border-bottom": "border-bottom",
+  "#{$prefix}-border-right": "border-right",
+  "#{$prefix}-border-left": "border-left",
+);
+
+@each $classname, $border in $borders {
+  @for $i from 1 to 4 {
+    .#{$classname}-#{$i} {
+      #{$border}: #{$i}px solid #000;
+    }
+  }
+}
+
+@each $classname, $border in $borders {
+  @for $i from 1 to 4 {
+    @each $screen in $screens {
+      .#{$classname}-#{$screen}-#{$i} {
+        #{$border}: #{$i}px solid #000;
+      }
+    }
+  }
+}
