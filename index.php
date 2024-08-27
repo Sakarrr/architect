@@ -16,9 +16,9 @@
                 <div class="arc-branding"> <a href="#"><b>BR</b> Architects</a></div>
                 <div class="arc-menu">
                     <ul class="arc-row">
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#arc-projects">Projects</a></li>
+                        <li><a href="#arc-about">About</a></li>
+                        <li><a href="#arc-contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -38,7 +38,7 @@
         </div>
     </div>
 
-    <div class="arc-projects">
+    <div class="arc-projects" id="arc-projects">
         <div class="arc-container">
             <div class="arc-section-header">
                 <h2 class="section-heading">Projects</h2>
@@ -83,7 +83,7 @@
         </div>
     </div>
 
-    <div class="arc-about">
+    <div class="arc-about" id="arc-about">
         <div class="arc-container">
             <div class="arc-section-header">
                 <h2 class="section-heading">About</h2>
@@ -151,7 +151,7 @@
         </div>
     </div>
 
-    <div class="arc-contact">
+    <div class="arc-contact" id="arc-contact">
         <div class="arc-container">
             <div class="arc-section-header">
                 <h2 class="section-heading">Contact</h2>
@@ -164,18 +164,25 @@
             </div>
 
             <div class="arc-form">
-                <form>
+                <form class="contact-form">
                     <input type="text" placeholder="Name">
                     <input type="text" placeholder="Email">
                     <input type="text" placeholder="Subject">
                     <textarea cols="2" rows="2" placeholder="Comment"></textarea>
+                    <button class="arc-btn-primary arc-btn-bg-black">Send Message</button>
                 </form>
+
+                <div class="contact-image">
+                    <img src="https://www.w3schools.com/w3images/map.jpg">
+                </div>
             </div>
-
-            <button class="arc-btn-primary arc-btn-bg-black">Send Message</button>
         </div>
+    </div>
 
-
+    <div class="arc-footer">
+        <p>
+            Powered by <a href="">W3.css</a>
+        </p>
     </div>
 
     <script src="./assets/js/jquery.js"></script>

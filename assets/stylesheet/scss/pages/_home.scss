@@ -91,15 +91,12 @@
 }
 
 .arc-contact {
-  .arc-container {
-    padding-bottom: 32px;
-  }
-
   .arc-section-header {
     padding-bottom: 0;
   }
 
   form {
+    margin-bottom: 32px;
     input,
     textarea {
       padding: 8px;

@@ -337,6 +337,15 @@ a {
       .arc-header .arc-menu {
         display: flex; } }
 
+.arc-footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 28px; }
+  .arc-footer a {
+    text-decoration: underline;
+    color: #fff; }
+
 .arc-hero {
   max-width: 1500px;
   margin: auto;
@@ -395,20 +404,20 @@ a {
     .arc-about .arc-container .arc-designer-card p {
       padding: 15px 0; }
 
-.arc-contact .arc-container {
-  padding-bottom: 32px; }
 .arc-contact .arc-section-header {
   padding-bottom: 0; }
-.arc-contact form input,
-.arc-contact form textarea {
-  padding: 8px;
-  display: block;
-  width: 100%;
-  border: 1px solid #ccc;
-  margin: 16px 0; }
-  .arc-contact form input:first-child,
-  .arc-contact form textarea:first-child {
-    margin: 0; }
+.arc-contact form {
+  margin-bottom: 32px; }
+  .arc-contact form input,
+  .arc-contact form textarea {
+    padding: 8px;
+    display: block;
+    width: 100%;
+    border: 1px solid #ccc;
+    margin: 16px 0; }
+    .arc-contact form input:first-child,
+    .arc-contact form textarea:first-child {
+      margin: 0; }
 
 /* Margin Classes */
 .arc-m-auto {
