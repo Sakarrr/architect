@@ -15,7 +15,8 @@
 .arc-container {
   width: 1564px;
   max-width: 100%;
-  margin: auto; }
+  margin: auto;
+  padding: 8px 32px; }
 
 .arc-section-margin-top {
   margin-top: 60px; }
@@ -236,6 +237,10 @@
   font-weight: 400;
   color: #000; }
 
+body {
+  font-family: sans-serif;
+  font-size: 15px; }
+
 img {
   vertical-align: middle;
   max-width: 100%;
@@ -278,6 +283,27 @@ a {
 
 .arc-fs-xxl {
   font-size: 64px; }
+
+.arc-btn-primary {
+  color: #121212;
+  background-color: #f1f1f1;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer; }
+  .arc-btn-primary:hover {
+    background-color: #ccc; }
+  .arc-btn-primary.arc-btn-fluid {
+    width: 100%; }
+  .arc-btn-primary.arc-btn-bg-black {
+    background-color: #000;
+    color: #fff; }
+    .arc-btn-primary.arc-btn-bg-black:hover {
+      color: #000;
+      background-color: #ccc; }
+
+.section-description {
+  line-height: 1.5;
+  padding: 15px 0; }
 
 .arc-section-header {
   padding: 32px 0; }
@@ -352,6 +378,37 @@ a {
 
 .arc-about .arc-container {
   padding: 8px 32px; }
+  .arc-about .arc-container .arc-designer-card {
+    padding: 0 8px;
+    margin-bottom: 16px; }
+    .arc-about .arc-container .arc-designer-card img {
+      width: 100%;
+      max-width: 100%;
+      filter: grayscale(80%); }
+    .arc-about .arc-container .arc-designer-card img {
+      padding-bottom: 10px; }
+    .arc-about .arc-container .arc-designer-card h3 {
+      padding-bottom: 15px; }
+    .arc-about .arc-container .arc-designer-card span {
+      opacity: 0.6;
+      padding-bottom: 15px; }
+    .arc-about .arc-container .arc-designer-card p {
+      padding: 15px 0; }
+
+.arc-contact .arc-container {
+  padding-bottom: 32px; }
+.arc-contact .arc-section-header {
+  padding-bottom: 0; }
+.arc-contact form input,
+.arc-contact form textarea {
+  padding: 8px;
+  display: block;
+  width: 100%;
+  border: 1px solid #ccc;
+  margin: 16px 0; }
+  .arc-contact form input:first-child,
+  .arc-contact form textarea:first-child {
+    margin: 0; }
 
 /* Margin Classes */
 .arc-m-auto {

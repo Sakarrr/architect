@@ -87,21 +87,22 @@
         <div class="arc-container">
             <div class="arc-section-header">
                 <h2 class="section-heading">About</h2>
-            </div>
-            <div class="section-description">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                    mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.
-                </p>
+
+                <div class="section-description">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                        ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                        mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.
+                    </p>
+                </div>
             </div>
 
             <div class="arc-designers-list">
                 <div class="arc-row">
-                    <div class="arc-designer-card col col-sm-6 col-md-3">
+                    <div class="arc-designer-card arc-col arc-col-sm-6 arc-col-md-3">
                         <img src="https://www.w3schools.com/w3images/team2.jpg">
                         <div class="arc-card-content">
                             <h3 class="arc-fs-xl">John Doe</h3>
@@ -109,9 +110,10 @@
                             <p>
                                 Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
                             </p>
+                            <button class="arc-btn-primary arc-btn-fluid">Contact</button>
                         </div>
                     </div>
-                    <div class="arc-designer-card col col-sm-6 col-md-3">
+                    <div class="arc-designer-card arc-col arc-col-sm-6 arc-col-md-3">
                         <img src="https://www.w3schools.com/w3images/team1.jpg">
                         <div class="arc-card-content">
                             <h3 class="arc-fs-xl">Jane Doe</h3>
@@ -119,9 +121,10 @@
                             <p>
                                 Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
                             </p>
+                            <button class="arc-btn-primary arc-btn-fluid">Contact</button>
                         </div>
                     </div>
-                    <div class="arc-designer-card col col-sm-6 col-md-3">
+                    <div class="arc-designer-card arc-col arc-col-sm-6 arc-col-md-3">
                         <img src="https://www.w3schools.com/w3images/team3.jpg">
                         <div class="arc-card-content">
                             <h3 class="arc-fs-xl">Mike Ross</h3>
@@ -129,9 +132,10 @@
                             <p>
                                 Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
                             </p>
+                            <button class="arc-btn-primary arc-btn-fluid">Contact</button>
                         </div>
                     </div>
-                    <div class="arc-designer-card col col-sm-6 col-md-3">
+                    <div class="arc-designer-card arc-col arc-col-sm-6 arc-col-md-3">
                         <img src="https://www.w3schools.com/w3images/team4.jpg">
                         <div class="arc-card-content">
                             <h3 class="arc-fs-xl">Dan Star</h3>
@@ -139,13 +143,42 @@
                             <p>
                                 Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
                             </p>
+                            <button class="arc-btn-primary arc-btn-fluid">Contact</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <script src="./assets/js/jquery.js"></script>
+    <div class="arc-contact">
+        <div class="arc-container">
+            <div class="arc-section-header">
+                <h2 class="section-heading">Contact</h2>
+
+                <div class="section-description">
+                    <p>
+                        Lets get in touch and talk about your next project.
+                    </p>
+                </div>
+            </div>
+
+            <div class="arc-form">
+                <form>
+                    <input type="text" placeholder="Name">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Subject">
+                    <textarea cols="2" rows="2" placeholder="Comment"></textarea>
+                </form>
+            </div>
+
+            <button class="arc-btn-primary arc-btn-bg-black">Send Message</button>
+        </div>
+
+
+    </div>
+
+    <script src="./assets/js/jquery.js"></script>
 </body>
 
 </html>

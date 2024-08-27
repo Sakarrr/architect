@@ -59,5 +59,58 @@
 .arc-about {
   .arc-container {
     padding: 8px 32px;
+
+    .arc-designer-card {
+      padding: 0 8px;
+      margin-bottom: 16px;
+
+      img {
+        width: 100%;
+        max-width: 100%;
+        filter: grayscale(80%);
+      }
+
+      img {
+        padding-bottom: 10px;
+      }
+
+      h3 {
+        padding-bottom: 15px;
+      }
+
+      span {
+        opacity: 0.6;
+        padding-bottom: 15px;
+      }
+
+      p {
+        padding: 15px 0;
+      }
+    }
+  }
+}
+
+.arc-contact {
+  .arc-container {
+    padding-bottom: 32px;
+  }
+
+  .arc-section-header {
+    padding-bottom: 0;
+  }
+
+  form {
+    input,
+    textarea {
+      padding: 8px;
+      display: block;
+      width: 100%;
+      border: 1px solid #ccc;
+      margin: 16px 0;
+
+      &:first-child {
+        margin: 0;
+      }
+    }
   }
 }

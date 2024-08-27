@@ -1,0 +1,25 @@
+.#{$prefix}-btn-primary {
+  color: #121212;
+  background-color: #f1f1f1;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #ccc;
+  }
+
+  &.#{$prefix}-btn-fluid {
+    width: 100%;
+  }
+
+  &.#{$prefix}-btn-bg-black {
+    background-color: #000;
+    color: #fff;
+
+    &:hover {
+      color: #000;
+      background-color: #ccc;
+    }
+  }
+}
