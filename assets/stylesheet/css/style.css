@@ -386,36 +386,32 @@ a {
           .arc-hero .arc-hero-text h1 .hero-text-small {
             display: inline-block; } }
 
-.arc-projects .arc-container {
-  padding: 8px 32px; }
-  .arc-projects .arc-container .arc-project {
-    position: relative;
-    padding: 0 8px;
-    margin-bottom: 16px; }
-    .arc-projects .arc-container .arc-project .arc-project-tag {
-      position: absolute;
-      padding: 8px 16px;
-      background-color: #000;
-      color: #fff; }
+.arc-projects .arc-project {
+  position: relative;
+  padding: 0 8px;
+  margin-bottom: 16px; }
+  .arc-projects .arc-project .arc-project-tag {
+    position: absolute;
+    padding: 8px 16px;
+    background-color: #000;
+    color: #fff; }
 
-.arc-about .arc-container {
-  padding: 8px 32px; }
-  .arc-about .arc-container .arc-designer-card {
-    padding: 0 8px;
-    margin-bottom: 16px; }
-    .arc-about .arc-container .arc-designer-card img {
-      width: 100%;
-      max-width: 100%;
-      filter: grayscale(80%); }
-    .arc-about .arc-container .arc-designer-card img {
-      padding-bottom: 10px; }
-    .arc-about .arc-container .arc-designer-card h3 {
-      padding-bottom: 15px; }
-    .arc-about .arc-container .arc-designer-card span {
-      opacity: 0.6;
-      padding-bottom: 15px; }
-    .arc-about .arc-container .arc-designer-card p {
-      padding: 15px 0; }
+.arc-about .arc-designer-card {
+  padding: 0 8px;
+  margin-bottom: 16px; }
+  .arc-about .arc-designer-card img {
+    width: 100%;
+    max-width: 100%;
+    filter: grayscale(80%); }
+  .arc-about .arc-designer-card img {
+    padding-bottom: 10px; }
+  .arc-about .arc-designer-card h3 {
+    padding-bottom: 15px; }
+  .arc-about .arc-designer-card span {
+    opacity: 0.6;
+    padding-bottom: 15px; }
+  .arc-about .arc-designer-card p {
+    padding: 15px 0; }
 
 .arc-contact .arc-section-header {
   padding-bottom: 0; }
