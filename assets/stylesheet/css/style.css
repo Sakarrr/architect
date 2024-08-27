@@ -362,6 +362,7 @@ a {
     text-decoration: underline;
     color: #fff; }
 
+/* Hero Section */
 .arc-hero {
   position: relative; }
   .arc-hero img {
@@ -387,6 +388,7 @@ a {
           .arc-hero .arc-hero-text h1 .hero-text-small {
             display: inline-block; } }
 
+/* Projects Section */
 .arc-projects .arc-project {
   position: relative;
   padding: 0 8px;
@@ -401,6 +403,7 @@ a {
     height: 240px;
     object-fit: cover; }
 
+/* About Section */
 .arc-about .arc-designer-card {
   padding: 0 8px;
   margin-bottom: 16px; }
@@ -418,6 +421,7 @@ a {
   .arc-about .arc-designer-card p {
     padding: 15px 0; }
 
+/* Contact Section */
 .arc-contact .arc-section-header {
   padding-bottom: 0; }
 

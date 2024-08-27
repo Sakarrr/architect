@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <!-- Header Section -->
     <div class="arc-header">
         <div class="arc-container-fluid">
             <div class="arc-row">
@@ -25,6 +26,7 @@
         </div>
     </div>
 
+    <!-- Hero Section -->
     <div class="arc-hero">
         <div class="arc-container">
             <div class="arc-hero-image">
@@ -40,6 +42,7 @@
         </div>
     </div>
 
+    <!-- Projects Section -->
     <div class="arc-projects" id="arc-projects">
         <div class="arc-container">
             <div class="arc-section-header">
@@ -85,6 +88,7 @@
         </div>
     </div>
 
+    <!-- About Section -->
     <div class="arc-about" id="arc-about">
         <div class="arc-container">
             <div class="arc-section-header">
@@ -153,6 +157,7 @@
         </div>
     </div>
 
+    <!-- Contact Section -->
     <div class="arc-contact" id="arc-contact">
         <div class="arc-container">
             <div class="arc-section-header">
@@ -181,6 +186,7 @@
         </div>
     </div>
 
+    <!-- Footer Section -->
     <div class="arc-footer">
         <p>
             Powered by <a href="">W3.css</a>

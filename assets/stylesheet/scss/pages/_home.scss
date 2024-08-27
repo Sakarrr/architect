@@ -1,3 +1,4 @@
+/* Hero Section */
 .#{$prefix}-hero {
   position: relative;
 
@@ -35,6 +36,7 @@
   }
 }
 
+/* Projects Section */
 .#{$prefix}-projects {
   .#{$prefix}-project {
     position: relative;
@@ -56,6 +58,7 @@
   }
 }
 
+/* About Section */
 .#{$prefix}-about {
   .#{$prefix}-designer-card {
     padding: 0 8px;
@@ -86,6 +89,7 @@
   }
 }
 
+/* Contact Section */
 .#{$prefix}-contact {
   .#{$prefix}-section-header {
     padding-bottom: 0;
