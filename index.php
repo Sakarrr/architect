@@ -48,7 +48,7 @@
                 <div class="arc-row">
                     <div class="arc-project arc-col arc-col-sm-6 arc-col-md-3">
                         <div class="arc-project-tag">Summer House</div>
-                        <img src="https://www.w3schools.com/w3images/house5.jpg">
+                        <img src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
                     </div>
                     <div class="arc-project arc-col arc-col-sm-6 arc-col-md-3">
                         <div class="arc-project-tag">Brick</div>
@@ -72,7 +72,7 @@
                     </div>
                     <div class="arc-project arc-col arc-col-sm-6 arc-col-md-3">
                         <div class="arc-project-tag">Renovated</div>
-                        <img src="https://www.w3schools.com/w3images/house4.jpg">
+                        <img src="https://images.pexels.com/photos/6752296/pexels-photo-6752296.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
                     </div>
                     <div class="arc-project arc-col arc-col-sm-6 arc-col-md-3">
                         <div class="arc-project-tag">Barn House</div>
