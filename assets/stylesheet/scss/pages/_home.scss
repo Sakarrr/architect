@@ -70,21 +70,9 @@
       filter: grayscale(80%);
     }
 
-    img {
-      padding-bottom: 10px;
-    }
-
-    h3 {
-      padding-bottom: 15px;
-    }
-
     span {
+      display: inline-block;
       opacity: 0.6;
-      padding-bottom: 15px;
-    }
-
-    p {
-      padding: 15px 0;
     }
   }
 }

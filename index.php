@@ -109,44 +109,44 @@
             <div class="arc-designers-list">
                 <div class="arc-row">
                     <div class="arc-designer-card arc-col arc-col-sm-6 arc-col-md-3">
-                        <img src="https://www.w3schools.com/w3images/team2.jpg">
+                        <img class="arc-pb-2" src="https://www.w3schools.com/w3images/team2.jpg">
                         <div class="arc-card-content">
-                            <h3 class="arc-fs-xl">John Doe</h3>
-                            <span>CEO & Founder</span>
-                            <p>
+                            <h3 class="arc-fs-xl arc-pb-3">John Doe</h3>
+                            <span class="arc-pb-3">CEO & Founder</span>
+                            <p class="arc-pb-3">
                                 Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
                             </p>
                             <button class="arc-btn-primary arc-btn-fluid">Contact</button>
                         </div>
                     </div>
                     <div class="arc-designer-card arc-col arc-col-sm-6 arc-col-md-3">
-                        <img src="https://www.w3schools.com/w3images/team1.jpg">
+                        <img class="arc-pb-2" src="https://www.w3schools.com/w3images/team1.jpg">
                         <div class="arc-card-content">
-                            <h3 class="arc-fs-xl">Jane Doe</h3>
-                            <span>Designer</span>
-                            <p>
+                            <h3 class="arc-fs-xl arc-pb-3">Jane Doe</h3>
+                            <span class="arc-pb-3">Designer</span>
+                            <p class="arc-pb-3">
                                 Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
                             </p>
                             <button class="arc-btn-primary arc-btn-fluid">Contact</button>
                         </div>
                     </div>
                     <div class="arc-designer-card arc-col arc-col-sm-6 arc-col-md-3">
-                        <img src="https://www.w3schools.com/w3images/team3.jpg">
+                        <img class="arc-pb-2" src="https://www.w3schools.com/w3images/team3.jpg">
                         <div class="arc-card-content">
-                            <h3 class="arc-fs-xl">Mike Ross</h3>
-                            <span>Architect</span>
-                            <p>
+                            <h3 class="arc-fs-xl arc-pb-3">Mike Ross</h3>
+                            <span class="arc-pb-3">Architect</span>
+                            <p class="arc-pb-3">
                                 Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
                             </p>
                             <button class="arc-btn-primary arc-btn-fluid">Contact</button>
                         </div>
                     </div>
                     <div class="arc-designer-card arc-col arc-col-sm-6 arc-col-md-3">
-                        <img src="https://www.w3schools.com/w3images/team4.jpg">
+                        <img class="arc-pb-2" src="https://www.w3schools.com/w3images/team4.jpg">
                         <div class="arc-card-content">
-                            <h3 class="arc-fs-xl">Dan Star</h3>
-                            <span>Architect</span>
-                            <p>
+                            <h3 class="arc-fs-xl arc-pb-3">Dan Star</h3>
+                            <span class="arc-pb-3">Architect</span>
+                            <p class="arc-pb-3">
                                 Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
                             </p>
                             <button class="arc-btn-primary arc-btn-fluid">Contact</button>

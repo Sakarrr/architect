@@ -411,15 +411,9 @@ a {
     width: 100%;
     max-width: 100%;
     filter: grayscale(80%); }
-  .arc-about .arc-designer-card img {
-    padding-bottom: 10px; }
-  .arc-about .arc-designer-card h3 {
-    padding-bottom: 15px; }
   .arc-about .arc-designer-card span {
-    opacity: 0.6;
-    padding-bottom: 15px; }
-  .arc-about .arc-designer-card p {
-    padding: 15px 0; }
+    display: inline-block;
+    opacity: 0.6; }
 
 /* Contact Section */
 .arc-contact .arc-section-header {
