@@ -112,7 +112,7 @@
 
             <div class="arc-designers-list arc-pt-8">
                 <div class="arc-row">
-                    <div class="arc-designer-card arc-col arc-col-sm-6 arc-col-md-3">
+                    <div class="arc-designer-card arc-col arc-col-sm-6 arc-col-md-3 arc-mb-4">
                         <img src="https://www.w3schools.com/w3images/team2.jpg">
                         <div class="arc-card-content">
                             <h3 class="arc-fs-xl arc-pt-2">John Doe</h3>
@@ -131,7 +131,7 @@
                             <p class="arc-pt-3">
                                 Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
                             </p>
-                            <button class="arc-btn-primary arc-btn-fluid arc-mt-3">Contact</button>
+                            <button class="arc-btn-primary arc-btn-fluid arc-mt-3 arc-mb-4">Contact</button>
                         </div>
                     </div>
                     <div class="arc-designer-card arc-col arc-col-sm-6 arc-col-md-3">
@@ -142,7 +142,7 @@
                             <p class="arc-pt-3">
                                 Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
                             </p>
-                            <button class="arc-btn-primary arc-btn-fluid arc-mt-3">Contact</button>
+                            <button class="arc-btn-primary arc-btn-fluid arc-mt-3 arc-mb-4">Contact</button>
                         </div>
                     </div>
                     <div class="arc-designer-card arc-col arc-col-sm-6 arc-col-md-3">
@@ -153,7 +153,7 @@
                             <p class="arc-pt-3">
                                 Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
                             </p>
-                            <button class="arc-btn-primary arc-btn-fluid arc-mt-3">Contact</button>
+                            <button class="arc-btn-primary arc-btn-fluid arc-mt-3 arc-mb-4">Contact</button>
                         </div>
                     </div>
                 </div>
