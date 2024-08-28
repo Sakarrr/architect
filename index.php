@@ -192,8 +192,6 @@
             Powered by <a href="">W3.css</a>
         </p>
     </div>
-
-    <script src="./assets/js/jquery.js"></script>
 </body>
 
 </html>
