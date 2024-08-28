@@ -313,7 +313,8 @@ a {
     display: block;
     width: 100%;
     border: 1px solid #ccc;
-    margin: 16px 0; }
+    margin: 16px 0;
+    field-sizing: content; }
     .arc-contact-form input:first-child,
     .arc-contact-form textarea:first-child {
       margin: 0; }
