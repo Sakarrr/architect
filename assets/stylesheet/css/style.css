@@ -384,7 +384,7 @@ a {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%); }
   .arc-hero .arc-hero-text h1 {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 36px;
     letter-spacing: 4px; }
     .arc-hero .arc-hero-text h1 .hero-text-large {
