@@ -39,15 +39,8 @@
 /* Projects Section */
 .#{$prefix}-projects {
   .#{$prefix}-projects-lists {
-    .#{$prefix}-project {
-      position: relative;
-
-      .#{$prefix}-project-tag {
-        position: absolute;
-      }
-      .#{$prefix}-image-section {
-        height: 240px;
-      }
+    .#{$prefix}-image-section {
+      height: 240px;
     }
   }
 }

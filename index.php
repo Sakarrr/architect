@@ -11,7 +11,7 @@
 
 <body>
     <!-- Header Section -->
-    <div class="arc-header">
+    <div class="arc-header arc-position-fixed">
         <div class="arc-container-fluid">
             <div class="arc-row">
                 <div class="arc-branding"> <a href="#"><b>BR</b> Architects</a></div>
@@ -51,8 +51,8 @@
                 <div class="arc-row">
                     <?php for ($i = 0; $i < 8; $i++) { ?>
                         <div class="arc-col arc-col-sm-6 arc-col-md-3">
-                            <div class='arc-project arc-mt-4'>
-                                <div class="arc-project-tag">Summer House</div>
+                            <div class='arc-project arc-position-relative arc-mt-4'>
+                                <div class="arc-project-tag arc-position-absolute">Summer House</div>
                                 <div class="arc-image-section">
                                     <img src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class='arc-img-cover'>
                                 </div>
@@ -112,7 +112,7 @@
 
             <div class="arc-designers-list arc-pt-8">
                 <div class="arc-row">
-                    <div class="arc-designer-card arc-col arc-col-sm-6 arc-col-md-3 arc-pb-4">
+                    <div class="arc-designer-card arc-col arc-col-sm-6 arc-col-md-3">
                         <img src="https://www.w3schools.com/w3images/team2.jpg">
                         <div class="arc-card-content">
                             <h3 class="arc-fs-xl arc-pt-2">John Doe</h3>
@@ -123,7 +123,7 @@
                             <button class="arc-btn-primary arc-btn-fluid arc-mt-3">Contact</button>
                         </div>
                     </div>
-                    <div class="arc-designer-card arc-col arc-col-sm-6 arc-col-md-3 arc-pb-4">
+                    <div class="arc-designer-card arc-col arc-col-sm-6 arc-col-md-3">
                         <img src="https://www.w3schools.com/w3images/team1.jpg">
                         <div class="arc-card-content">
                             <h3 class="arc-fs-xl arc-pt-2">Jane Doe</h3>
@@ -134,7 +134,7 @@
                             <button class="arc-btn-primary arc-btn-fluid arc-mt-3">Contact</button>
                         </div>
                     </div>
-                    <div class="arc-designer-card arc-col arc-col-sm-6 arc-col-md-3 arc-pb-4">
+                    <div class="arc-designer-card arc-col arc-col-sm-6 arc-col-md-3">
                         <img src="https://www.w3schools.com/w3images/team3.jpg">
                         <div class="arc-card-content">
                             <h3 class="arc-fs-xl arc-pt-2">Mike Ross</h3>
@@ -145,7 +145,7 @@
                             <button class="arc-btn-primary arc-btn-fluid arc-mt-3">Contact</button>
                         </div>
                     </div>
-                    <div class="arc-designer-card arc-col arc-col-sm-6 arc-col-md-3 arc-pb-4">
+                    <div class="arc-designer-card arc-col arc-col-sm-6 arc-col-md-3">
                         <img src="https://www.w3schools.com/w3images/team4.jpg">
                         <div class="arc-card-content">
                             <h3 class="arc-fs-xl arc-pt-2">Dan Star</h3>
@@ -184,13 +184,13 @@
                 </form>
             </div>
         </div>
-        <div class="contact-image">
+        <div class="contact-image arc-mt-8">
             <img src="https://www.w3schools.com/w3images/map.jpg">
         </div>
     </div>
 
     <!-- Footer Section -->
-    <div class="arc-footer">
+    <div class="arc-footer arc-p-7">
         <p>
             Powered by <a href="">W3.css</a>
         </p>
