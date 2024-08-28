@@ -5,13 +5,17 @@
 /* Container classes */
 .arc-container-fluid {
   width: 100%;
-  max-width: 100%; }
+  max-width: 100%;
+  padding: 0 30px; }
 
 .arc-container {
-  width: 1564px;
+  width: 1560px;
   max-width: 100%;
   margin: auto;
-  padding: 8px 32px; }
+  padding: 0 20px; }
+  @media screen and (min-width: 768px) {
+    .arc-container {
+      padding: 0 30px; } }
 
 .arc-section-margin-top {
   margin-top: 60px; }
@@ -19,9 +23,15 @@
     .arc-section-margin-top {
       margin-top: 100px; } }
 
+.arc-row {
+  margin-left: -7.5px;
+  margin-right: -7.5px; }
+
 .arc-col {
   flex: 0 0 100%;
-  max-width: 100%; }
+  max-width: 100%;
+  padding-left: 7.5px;
+  padding-right: 7.5px; }
 
 .arc-col-2 {
   flex: 0 0 16.6666666667%;
@@ -319,6 +329,11 @@ a {
     .arc-contact-form textarea:first-child {
       margin: 0; }
 
+.arc-project-tag {
+  padding: 8px 16px;
+  background-color: #000;
+  color: #fff; }
+
 .section-description {
   padding: 15px 0; }
 
@@ -397,17 +412,11 @@ a {
 /* Projects Section */
 .arc-projects .arc-project {
   position: relative;
-  padding: 0 8px;
-  margin-bottom: 16px; }
+  margin-top: 15px; }
   .arc-projects .arc-project .arc-project-tag {
-    position: absolute;
-    padding: 8px 16px;
-    background-color: #000;
-    color: #fff; }
-  .arc-projects .arc-project img {
-    width: 100%;
-    height: 240px;
-    object-fit: cover; }
+    position: absolute; }
+  .arc-projects .arc-project .arc-image-section {
+    height: 240px; }
 
 /* About Section */
 .arc-about .arc-designer-card {
@@ -2325,5 +2334,11 @@ a {
 
 .arc-border-left-lg-3 {
   border-left: 3px solid #000; }
+
+.arc-img-cover {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-position: center; }
 
 /*# sourceMappingURL=style.css.map */

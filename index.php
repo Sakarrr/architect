@@ -51,11 +51,17 @@
 
             <div class="arc-projects-lists">
                 <div class="arc-row">
-                    <div class="arc-project arc-col arc-col-sm-6 arc-col-md-3">
-                        <div class="arc-project-tag">Summer House</div>
-                        <img src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
-                    </div>
-                    <div class="arc-project arc-col arc-col-sm-6 arc-col-md-3">
+                    <?php for ($i = 0; $i < 8; $i++) { ?>
+                        <div class="arc-col arc-col-sm-6 arc-col-md-3">
+                            <div class='arc-project'>
+                                <div class="arc-project-tag">Summer House</div>
+                                <div class="arc-image-section">
+                                    <img src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class='arc-img-cover'>
+                                </div>
+                            </div>
+                        </div>
+                    <?php } ?>
+                    <!-- <div class="arc-project arc-col arc-col-sm-6 arc-col-md-3">
                         <div class="arc-project-tag">Brick</div>
                         <img src="https://www.w3schools.com/w3images/house2.jpg">
                     </div>
@@ -82,7 +88,7 @@
                     <div class="arc-project arc-col arc-col-sm-6 arc-col-md-3">
                         <div class="arc-project-tag">Barn House</div>
                         <img src="https://www.w3schools.com/w3images/house3.jpg">
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>

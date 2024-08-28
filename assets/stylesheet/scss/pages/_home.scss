@@ -41,20 +41,13 @@
 .#{$prefix}-projects {
   .#{$prefix}-project {
     position: relative;
-    padding: 0 8px;
-    margin-bottom: 16px;
+    margin-top: 15px;
 
     .#{$prefix}-project-tag {
       position: absolute;
-      padding: 8px 16px;
-      background-color: #000;
-      color: #fff;
     }
-
-    img {
-      width: 100%;
+    .#{$prefix}-image-section {
       height: 240px;
-      object-fit: cover;
     }
   }
 }
@@ -77,3 +70,6 @@
     }
   }
 }
+
+
+

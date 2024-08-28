@@ -5,13 +5,17 @@ $cols: 2, 3, 4, 6;
 .#{$prefix}-container-fluid {
   width: 100%;
   max-width: 100%;
+  padding: 0 30px;
 }
 
 .#{$prefix}-container {
-  width: 1564px;
+  width: 1560px;
   max-width: 100%;
   margin: auto;
-  padding: 8px 32px;
+  padding: 0 20px;
+  @include breakpoints("md") {
+    padding: 0 30px;
+  }
 }
 
 .#{$prefix}-section-margin-top {
@@ -24,10 +28,14 @@ $cols: 2, 3, 4, 6;
 
 .#{$prefix}-row {
   @extend %flex;
+  margin-left: -7.5px;
+  margin-right: -7.5px;
 }
 
 .#{$prefix}-col {
   @include flex-width(100%);
+  padding-left: 7.5px;
+  padding-right: 7.5px;
 }
 
 @each $col in $cols {
