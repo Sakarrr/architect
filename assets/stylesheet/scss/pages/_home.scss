@@ -38,24 +38,27 @@
 
 /* Projects Section */
 .#{$prefix}-projects {
-  .#{$prefix}-project {
-    position: relative;
-    margin-top: 15px;
+  .#{$prefix}-projects-lists {
+    .#{$prefix}-project {
+      position: relative;
 
-    .#{$prefix}-project-tag {
-      position: absolute;
-    }
-    .#{$prefix}-image-section {
-      height: 240px;
+      .#{$prefix}-project-tag {
+        position: absolute;
+      }
+      .#{$prefix}-image-section {
+        height: 240px;
+      }
     }
   }
 }
 
 /* About Section */
 .#{$prefix}-about {
+  background-color: #b0bec5;
+
   .#{$prefix}-designer-card {
-    padding: 0 8px;
-    margin-bottom: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
 
     img {
       width: 100%;

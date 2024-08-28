@@ -2,6 +2,7 @@
 $screens: sm, md, lg;
 
 $corners: (
+  "#{$prefix}-p": "padding",
   "#{$prefix}-pt": "padding-top",
   "#{$prefix}-pb": "padding-bottom",
   "#{$prefix}-pr": "padding-right",
@@ -15,7 +16,7 @@ $corners: (
 @each $classname, $padding in $corners {
   @for $i from 0 to 18 {
     .#{$classname}-#{$i} {
-      #{$padding}: #{$i * 5}px;
+      #{$padding}: #{$i * 4}px;
     }
   }
 }
@@ -24,7 +25,7 @@ $corners: (
   @for $i from 0 to 18 {
     @each $screen in $screens {
       .#{$classname}-#{$screen}-#{$i} {
-        #{$padding}: #{$i * 5}px;
+        #{$padding}: #{$i * 4}px;
       }
     }
   }
