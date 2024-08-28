@@ -2,10 +2,11 @@
 $screens: sm, md, lg;
 
 $corners: (
-  "#{$prefix}-mt-": "margin-top",
-  "#{$prefix}-mb-": "margin-bottom",
-  "#{$prefix}-mr-": "margin-right",
-  "#{$prefix}-ml-": "margin-left",
+  "#{$prefix}-m": "margin",
+  "#{$prefix}-mt": "margin-top",
+  "#{$prefix}-mb": "margin-bottom",
+  "#{$prefix}-mr": "margin-right",
+  "#{$prefix}-ml": "margin-left",
 );
 
 .#{$prefix}-m-auto {
@@ -14,7 +15,7 @@ $corners: (
 
 @each $classname, $margin in $corners {
   @for $i from 1 to 18 {
-    .#{$classname + $i} {
+    .#{$classname}-#{$i} {
       #{$margin}: #{$i * 5}px;
     }
   }
