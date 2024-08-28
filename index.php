@@ -46,7 +46,7 @@
     <div class="arc-projects" id="arc-projects">
         <div class="arc-container">
             <div class="arc-section-header">
-                <h2 class="section-heading">Projects</h2>
+                <h2 class="section-heading arc-fs-xl">Projects</h2>
             </div>
 
             <div class="arc-projects-lists">
@@ -92,7 +92,7 @@
     <div class="arc-about" id="arc-about">
         <div class="arc-container">
             <div class="arc-section-header">
-                <h2 class="section-heading">About</h2>
+                <h2 class="section-heading arc-fs-xl">About</h2>
 
                 <div class="section-description">
                     <p>
@@ -161,7 +161,7 @@
     <div class="arc-contact" id="arc-contact">
         <div class="arc-container">
             <div class="arc-section-header arc-pb-0">
-                <h2 class="section-heading">Contact</h2>
+                <h2 class="section-heading arc-fs-xl">Contact</h2>
 
                 <div class="section-description">
                     <p>
