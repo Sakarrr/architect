@@ -8,3 +8,31 @@
   height: 100%;
   object-position: center;
 }
+
+.#{$prefix}-position-relative {
+  position: relative;
+}
+
+.#{$prefix}-position-absolute {
+  position: absolute;
+}
+
+.#{$prefix}-position-fixed {
+  position: fixed;
+}
+
+.#{$prefix}-position-sticky {
+  position: sticky;
+}
+
+.#{$prefix}-text-left {
+  text-align: left;
+}
+
+.#{$prefix}-text-center {
+  text-align: center;
+}
+
+.#{$prefix}-text-right {
+  text-align: right;
+}

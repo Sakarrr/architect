@@ -28,17 +28,15 @@
 
     <!-- Hero Section -->
     <div class="arc-hero">
-        <div class="arc-container">
-            <div class="arc-hero-image">
-                <img src="https://www.w3schools.com/w3images/architect.jpg">
-            </div>
+        <div class="arc-hero-image arc-position-relative">
+            <img src="https://www.w3schools.com/w3images/architect.jpg" class="hero-img">
+        </div>
 
-            <div class="arc-hero-text">
-                <h1>
-                    <span class="hero-text-large">BR</span>
-                    <span class="hero-text-small">Architects</span>
-                </h1>
-            </div>
+        <div class="arc-hero-text arc-position-absolute">
+            <h1>
+                <span class="hero-text-large">BR</span>
+                <span class="hero-text-small">Architects</span>
+            </h1>
         </div>
     </div>
 
@@ -184,11 +182,10 @@
                     <textarea cols="2" rows="2" placeholder="Comment"></textarea>
                     <button class="arc-btn-primary arc-btn-bg-black">Send Message</button>
                 </form>
-
-                <div class="contact-image">
-                    <img src="https://www.w3schools.com/w3images/map.jpg">
-                </div>
             </div>
+        </div>
+        <div class="contact-image">
+            <img src="https://www.w3schools.com/w3images/map.jpg">
         </div>
     </div>
 
