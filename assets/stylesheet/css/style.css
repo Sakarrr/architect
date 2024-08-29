@@ -6,7 +6,10 @@
 .arc-container-fluid {
   width: 100%;
   max-width: 100%;
-  padding: 0 30px; }
+  padding: 0 20px; }
+  @media screen and (min-width: 768px) {
+    .arc-container-fluid {
+      padding: 0 30px; } }
 
 .arc-container {
   width: 1560px;
@@ -351,9 +354,15 @@ a {
     justify-content: space-between;
     align-items: center; }
   .arc-header .arc-branding {
-    padding: 8px 16px; }
+    padding: 8px 0; }
+    @media screen and (min-width: 768px) {
+      .arc-header .arc-branding {
+        padding: 8px 16px; } }
     .arc-header .arc-branding a {
-      padding: 8px 16px; }
+      padding: 8px 0; }
+      @media screen and (min-width: 768px) {
+        .arc-header .arc-branding a {
+          padding: 8px 16px; } }
       .arc-header .arc-branding a:hover {
         background-color: #ccc; }
   .arc-header .arc-menu {

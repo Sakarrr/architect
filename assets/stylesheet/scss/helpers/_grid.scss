@@ -5,7 +5,10 @@ $cols: 2, 3, 4, 6;
 .#{$prefix}-container-fluid {
   width: 100%;
   max-width: 100%;
-  padding: 0 30px;
+  padding: 0 20px;
+  @include breakpoints("md") {
+    padding: 0 30px;
+  }
 }
 
 .#{$prefix}-container {

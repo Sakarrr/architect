@@ -13,10 +13,18 @@
   }
 
   .#{$prefix}-branding {
-    padding: 8px 16px;
+    padding: 8px 0;
+
+    @include breakpoints("md") {
+      padding: 8px 16px;
+    }
 
     a {
-      padding: 8px 16px;
+      padding: 8px 0;
+
+      @include breakpoints("md") {
+        padding: 8px 16px;
+      }
 
       &:hover {
         background-color: #ccc;
