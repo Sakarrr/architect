@@ -30,7 +30,7 @@
         ],
         [
             'tag' => 'Summer House',
-            'link' => 'https://www.w3schools.com/w3images/house2.jpg',
+            'link' => 'https://images.pexels.com/photos/280222/pexels-photo-280222.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
         ],
         [
             'tag' => 'Brick House',
@@ -38,11 +38,11 @@
         ],
         [
             'tag' => 'Renovated',
-            'link' => 'https://www.w3schools.com/w3images/house4.jpg',
+            'link' => 'https://images.pexels.com/photos/2102587/pexels-photo-2102587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
         ],
         [
             'tag' => 'Barn House',
-            'link' => 'https://www.w3schools.com/w3images/house3.jpg',
+            'link' => 'https://images.pexels.com/photos/2098405/pexels-photo-2098405.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
         ]
     ]
 
