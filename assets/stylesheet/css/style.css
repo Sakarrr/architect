@@ -408,8 +408,6 @@ a {
     padding-left: 8px;
     padding-right: 8px; }
     .arc-about .arc-designer-card img {
-      width: 100%;
-      max-width: 100%;
       filter: grayscale(80%); }
     .arc-about .arc-designer-card span {
       display: inline-block;
