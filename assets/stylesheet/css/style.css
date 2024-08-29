@@ -257,6 +257,9 @@ button {
   font-size: inherit;
   font-family: inherit; }
 
+span {
+  display: inline-block; }
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -410,7 +413,6 @@ a {
     .arc-about .arc-designer-card img {
       filter: grayscale(80%); }
     .arc-about .arc-designer-card span {
-      display: inline-block;
       opacity: 0.6; }
 
 /* Margin Classes */
