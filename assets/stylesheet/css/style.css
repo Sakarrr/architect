@@ -417,7 +417,8 @@ a {
   height: 300px; }
   @media screen and (min-width: 576px) {
     .arc-hero .hero-img {
-      height: calc(100vh - 80px); } }
+      height: calc(100vh - 80px);
+      min-height: 600px; } }
 .arc-hero .arc-hero-text {
   color: #fff;
   top: 50%;

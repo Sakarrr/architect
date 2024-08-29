@@ -5,6 +5,7 @@
 
     @include breakpoints("sm") {
       height: calc(100vh - 80px);
+      min-height: 600px;
     }
   }
 
