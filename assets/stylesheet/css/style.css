@@ -419,6 +419,9 @@ a {
 .arc-m-auto {
   margin: auto; }
 
+.arc-m-0 {
+  margin: 0px; }
+
 .arc-m-1 {
   margin: 5px; }
 
@@ -469,6 +472,9 @@ a {
 
 .arc-m-17 {
   margin: 85px; }
+
+.arc-mt-0 {
+  margin-top: 0px; }
 
 .arc-mt-1 {
   margin-top: 5px; }
@@ -521,6 +527,9 @@ a {
 .arc-mt-17 {
   margin-top: 85px; }
 
+.arc-mb-0 {
+  margin-bottom: 0px; }
+
 .arc-mb-1 {
   margin-bottom: 5px; }
 
@@ -571,6 +580,9 @@ a {
 
 .arc-mb-17 {
   margin-bottom: 85px; }
+
+.arc-mr-0 {
+  margin-right: 0px; }
 
 .arc-mr-1 {
   margin-right: 5px; }
@@ -623,6 +635,9 @@ a {
 .arc-mr-17 {
   margin-right: 85px; }
 
+.arc-ml-0 {
+  margin-left: 0px; }
+
 .arc-ml-1 {
   margin-left: 5px; }
 
@@ -673,6 +688,15 @@ a {
 
 .arc-ml-17 {
   margin-left: 85px; }
+
+.arc-msm-0 {
+  margin: 0px; }
+
+.arc-mmd-0 {
+  margin: 0px; }
+
+.arc-mlg-0 {
+  margin: 0px; }
 
 .arc-msm-1 {
   margin: 5px; }
@@ -827,14 +851,14 @@ a {
 .arc-mlg-17 {
   margin: 85px; }
 
-.arc-msm-18 {
-  margin: 90px; }
+.arc-mtsm-0 {
+  margin-top: 0px; }
 
-.arc-mmd-18 {
-  margin: 90px; }
+.arc-mtmd-0 {
+  margin-top: 0px; }
 
-.arc-mlg-18 {
-  margin: 90px; }
+.arc-mtlg-0 {
+  margin-top: 0px; }
 
 .arc-mtsm-1 {
   margin-top: 5px; }
@@ -989,14 +1013,14 @@ a {
 .arc-mtlg-17 {
   margin-top: 85px; }
 
-.arc-mtsm-18 {
-  margin-top: 90px; }
+.arc-mbsm-0 {
+  margin-bottom: 0px; }
 
-.arc-mtmd-18 {
-  margin-top: 90px; }
+.arc-mbmd-0 {
+  margin-bottom: 0px; }
 
-.arc-mtlg-18 {
-  margin-top: 90px; }
+.arc-mblg-0 {
+  margin-bottom: 0px; }
 
 .arc-mbsm-1 {
   margin-bottom: 5px; }
@@ -1151,14 +1175,14 @@ a {
 .arc-mblg-17 {
   margin-bottom: 85px; }
 
-.arc-mbsm-18 {
-  margin-bottom: 90px; }
+.arc-mrsm-0 {
+  margin-right: 0px; }
 
-.arc-mbmd-18 {
-  margin-bottom: 90px; }
+.arc-mrmd-0 {
+  margin-right: 0px; }
 
-.arc-mblg-18 {
-  margin-bottom: 90px; }
+.arc-mrlg-0 {
+  margin-right: 0px; }
 
 .arc-mrsm-1 {
   margin-right: 5px; }
@@ -1313,14 +1337,14 @@ a {
 .arc-mrlg-17 {
   margin-right: 85px; }
 
-.arc-mrsm-18 {
-  margin-right: 90px; }
+.arc-mlsm-0 {
+  margin-left: 0px; }
 
-.arc-mrmd-18 {
-  margin-right: 90px; }
+.arc-mlmd-0 {
+  margin-left: 0px; }
 
-.arc-mrlg-18 {
-  margin-right: 90px; }
+.arc-mllg-0 {
+  margin-left: 0px; }
 
 .arc-mlsm-1 {
   margin-left: 5px; }
@@ -1474,15 +1498,6 @@ a {
 
 .arc-mllg-17 {
   margin-left: 85px; }
-
-.arc-mlsm-18 {
-  margin-left: 90px; }
-
-.arc-mlmd-18 {
-  margin-left: 90px; }
-
-.arc-mllg-18 {
-  margin-left: 90px; }
 
 /* Padding Classes */
 .arc-p-auto {

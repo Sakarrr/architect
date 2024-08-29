@@ -14,7 +14,7 @@ $corners: (
 }
 
 @each $classname, $margin in $corners {
-  @for $i from 1 to 18 {
+  @for $i from 0 to 18 {
     .#{$classname}-#{$i} {
       #{$margin}: #{$i * 5}px;
     }
@@ -22,7 +22,7 @@ $corners: (
 }
 
 @each $classname, $margin in $corners {
-  @for $i from 1 to 19 {
+  @for $i from 0 to 18 {
     @each $screen in $screens {
       .#{$classname + $screen}-#{$i} {
         #{$margin}: #{$i * 5}px;
