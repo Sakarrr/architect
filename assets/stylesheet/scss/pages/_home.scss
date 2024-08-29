@@ -48,17 +48,17 @@
 /* About Section */
 .#{$prefix}-about {
   background-color: #b0bec5;
+}
+.#{$prefix}-designer-card {
+  padding: 15px 15px 30px;
+  .arc-image-section {
+    height: 300px;
+  }
+  img {
+    filter: grayscale(80%);
+  }
 
-  .#{$prefix}-designer-card {
-    padding-left: 8px;
-    padding-right: 8px;
-
-    img {
-      filter: grayscale(80%);
-    }
-
-    span {
-      opacity: 0.6;
-    }
+  span {
+    opacity: 0.6;
   }
 }

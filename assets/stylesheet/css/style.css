@@ -339,8 +339,16 @@ a {
 
 .arc-section-header .section-heading {
   font-weight: 400;
-  padding: 16px 0;
+  padding-bottom: 15px;
+  line-height: 1;
   border-bottom: 1px solid #f1f1f1; }
+
+.arc-section-spacing {
+  padding-top: 45px;
+  padding-bottom: 45px; }
+
+.arc-bg-white {
+  background-color: white; }
 
 .arc-header {
   padding: 8px 16px;
@@ -417,13 +425,15 @@ a {
 /* About Section */
 .arc-about {
   background-color: #b0bec5; }
-  .arc-about .arc-designer-card {
-    padding-left: 8px;
-    padding-right: 8px; }
-    .arc-about .arc-designer-card img {
-      filter: grayscale(80%); }
-    .arc-about .arc-designer-card span {
-      opacity: 0.6; }
+
+.arc-designer-card {
+  padding: 15px 15px 30px; }
+  .arc-designer-card .arc-image-section {
+    height: 300px; }
+  .arc-designer-card img {
+    filter: grayscale(80%); }
+  .arc-designer-card span {
+    opacity: 0.6; }
 
 /* Margin Classes */
 .arc-m-auto {
