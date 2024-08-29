@@ -352,8 +352,10 @@ a {
     align-items: center; }
   .arc-header .arc-branding {
     padding: 8px 16px; }
-    .arc-header .arc-branding:hover {
-      background-color: #ccc; }
+    .arc-header .arc-branding a {
+      padding: 8px 16px; }
+      .arc-header .arc-branding a:hover {
+        background-color: #ccc; }
   .arc-header .arc-menu {
     display: none; }
     .arc-header .arc-menu li a {

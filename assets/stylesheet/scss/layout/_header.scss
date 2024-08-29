@@ -15,8 +15,12 @@
   .#{$prefix}-branding {
     padding: 8px 16px;
 
-    &:hover {
-      background-color: #ccc;
+    a {
+      padding: 8px 16px;
+
+      &:hover {
+        background-color: #ccc;
+      }
     }
   }
 
