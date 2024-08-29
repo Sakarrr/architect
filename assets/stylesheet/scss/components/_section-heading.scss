@@ -6,10 +6,10 @@
     border-bottom: 1px solid #f1f1f1;
   }
 }
-.arc-section-spacing {
+.#{$prefix}-section-spacing {
   padding-top: 45px;
   padding-bottom: 45px;
 }
-.arc-bg-white {
+.#{$prefix}-bg-white {
   background-color: white;
 }
