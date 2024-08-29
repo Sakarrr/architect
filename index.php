@@ -10,6 +10,43 @@
 </head>
 
 <body>
+    <?php
+    $projects = [
+        [
+            'tag' => 'Summer House',
+            'link' => 'https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        ],
+        [
+            'tag' => 'Brick House',
+            'link' => 'https://www.w3schools.com/w3images/house2.jpg',
+        ],
+        [
+            'tag' => 'Renovated',
+            'link' => 'https://www.w3schools.com/w3images/house3.jpg',
+        ],
+        [
+            'tag' => 'Barn House',
+            'link' => 'https://www.w3schools.com/w3images/house4.jpg',
+        ],
+        [
+            'tag' => 'Summer House',
+            'link' => 'https://www.w3schools.com/w3images/house2.jpg',
+        ],
+        [
+            'tag' => 'Brick House',
+            'link' => 'https://www.w3schools.com/w3images/house5.jpg',
+        ],
+        [
+            'tag' => 'Renovated',
+            'link' => 'https://www.w3schools.com/w3images/house4.jpg',
+        ],
+        [
+            'tag' => 'Barn House',
+            'link' => 'https://www.w3schools.com/w3images/house3.jpg',
+        ]
+    ]
+
+    ?>
     <!-- Header Section -->
     <div class="arc-header arc-position-fixed">
         <div class="arc-container-fluid">
@@ -49,44 +86,16 @@
 
             <div class="arc-projects-lists arc-pt-8">
                 <div class="arc-row">
-                    <?php for ($i = 0; $i < 8; $i++) { ?>
-                        <div class="arc-col arc-col-sm-6 arc-col-md-3">
-                            <div class='arc-project arc-position-relative arc-mt-4'>
-                                <div class="arc-project-tag arc-position-absolute">Summer House</div>
-                                <div class="arc-image-section">
-                                    <img src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class='arc-img-cover'>
-                                </div>
-                            </div>
-                        </div>
-                    <?php } ?>
-                    <!-- <div class="arc-project arc-col arc-col-sm-6 arc-col-md-3">
-                        <div class="arc-project-tag">Brick</div>
-                        <img src="https://www.w3schools.com/w3images/house2.jpg">
-                    </div>
-                    <div class="arc-project arc-col arc-col-sm-6 arc-col-md-3">
-                        <div class="arc-project-tag">Renovated</div>
-                        <img src="https://www.w3schools.com/w3images/house3.jpg">
-                    </div>
-                    <div class="arc-project arc-col arc-col-sm-6 arc-col-md-3">
-                        <div class="arc-project-tag">Barn House</div>
-                        <img src="https://www.w3schools.com/w3images/house4.jpg">
-                    </div>
-                    <div class="arc-project arc-col arc-col-sm-6 arc-col-md-3">
-                        <div class="arc-project-tag">Summer House</div>
-                        <img src="https://www.w3schools.com/w3images/house2.jpg">
-                    </div>
-                    <div class="arc-project arc-col arc-col-sm-6 arc-col-md-3">
-                        <div class="arc-project-tag">Brick</div>
-                        <img src="https://www.w3schools.com/w3images/house5.jpg">
-                    </div>
-                    <div class="arc-project arc-col arc-col-sm-6 arc-col-md-3">
-                        <div class="arc-project-tag">Renovated</div>
-                        <img src="https://images.pexels.com/photos/6752296/pexels-photo-6752296.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
-                    </div>
-                    <div class="arc-project arc-col arc-col-sm-6 arc-col-md-3">
-                        <div class="arc-project-tag">Barn House</div>
-                        <img src="https://www.w3schools.com/w3images/house3.jpg">
-                    </div> -->
+                    <?php foreach ($projects as $project) {
+                        echo '<div class="arc-col arc-col-sm-6 arc-col-md-3">';
+                        echo '<div class="arc-project arc-position-relative arc-mt-4">';
+                        echo '<div class="arc-project-tag arc-position-absolute">' . $project["tag"] . '</div>';
+                        echo '<div class="arc-image-section">';
+                        echo '<img src="' . $project["link"] . '" class="arc-img-cover">';
+                        echo '</div>';
+                        echo '</div>';
+                        echo '</div>';
+                    } ?>
                 </div>
             </div>
         </div>
