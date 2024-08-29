@@ -387,12 +387,12 @@ a {
       min-width: 160px;
       background: #fff;
       z-index: 1; }
-      .arc-header .arc-menu .arc-menu-level-1 .submenu {
+      .arc-header .arc-menu .arc-menu-level-1 .arc-submenu {
         position: relative;
         padding: 20px 10px; }
-        .arc-header .arc-menu .arc-menu-level-1 .submenu:hover {
+        .arc-header .arc-menu .arc-menu-level-1 .arc-submenu:hover {
           background-color: #ccc; }
-          .arc-header .arc-menu .arc-menu-level-1 .submenu:hover:hover .arc-menu-level-2 {
+          .arc-header .arc-menu .arc-menu-level-1 .arc-submenu:hover:hover .arc-menu-level-2 {
             display: block; }
     .arc-header .arc-menu .arc-menu-level-2 {
       display: none;

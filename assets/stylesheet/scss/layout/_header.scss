@@ -60,7 +60,7 @@
       background: #fff;
       z-index: 1;
 
-      .submenu {
+      .#{$prefix}-submenu {
         position: relative;
         padding: 20px 10px;
 
@@ -68,7 +68,7 @@
           background-color: #ccc;
 
           &:hover {
-            .arc-menu-level-2 {
+            .#{$prefix}-menu-level-2 {
               display: block;
             }
           }
