@@ -24,10 +24,12 @@
     display: none;
 
     li {
-      padding: 8px 16px;
+      a {
+        padding: 8px 16px;
 
-      &:hover {
-        background-color: #ccc;
+        &:hover {
+          background-color: #ccc;
+        }
       }
     }
 

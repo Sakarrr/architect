@@ -356,9 +356,9 @@ a {
       background-color: #ccc; }
   .arc-header .arc-menu {
     display: none; }
-    .arc-header .arc-menu li {
+    .arc-header .arc-menu li a {
       padding: 8px 16px; }
-      .arc-header .arc-menu li:hover {
+      .arc-header .arc-menu li a:hover {
         background-color: #ccc; }
     @media screen and (min-width: 576px) {
       .arc-header .arc-menu {
