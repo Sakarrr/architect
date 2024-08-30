@@ -54,7 +54,8 @@
             <div class="arc-branding"> <a href="#arc-hero"><b>BR</b> Architects</a></div>
             <div class="arc-menu">
                 <ul class="arc-flex">
-                    <li><a href="#arc-projects">Projects
+                    <li>
+                        <a href="#arc-projects">Projects
                             <ul class="arc-menu-level-1">
                                 <li class="arc-submenu">Project 1</li>
                                 <li class="arc-submenu">Project 2
