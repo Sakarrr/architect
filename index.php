@@ -221,11 +221,11 @@
 
             <div class="arc-form arc-pt-4">
                 <form class="arc-contact-form">
-                    <input class="arc-mt-2 arc-p-2" type="text" placeholder="Name">
-                    <input class="arc-mt-2 arc-p-2" type="text" placeholder="Email">
-                    <input class="arc-mt-2 arc-p-2" type="text" placeholder="Subject">
-                    <textarea class="arc-mt-2 arc-p-2" cols="2" rows="2" placeholder="Comment"></textarea>
-                    <button class="arc-btn-primary arc-btn-bg-black arc-mt-2">Send Message</button>
+                    <input class="arc-mt-4 arc-p-2" type="text" placeholder="Name">
+                    <input class="arc-mt-4 arc-p-2" type="text" placeholder="Email">
+                    <input class="arc-mt-4 arc-p-2" type="text" placeholder="Subject">
+                    <textarea class="arc-mt-4 arc-p-2" cols="2" rows="2" placeholder="Comment"></textarea>
+                    <button class="arc-btn-primary arc-btn-bg-black arc-mt-4">Send Message</button>
                 </form>
             </div>
         </div>
