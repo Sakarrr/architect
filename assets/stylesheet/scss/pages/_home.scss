@@ -1,6 +1,7 @@
 /* Hero Section */
 .#{$prefix}-hero {
   .#{$prefix}-hero-image {
+    overflow: hidden;
     &::before {
       content: "";
       display: block;
@@ -19,6 +20,7 @@
 
   .hero-img {
     height: 300px;
+    @include animation("kenburns-top 5s ease-out infinite alternate both");
 
     @include breakpoints("sm") {
       height: calc(100vh - 80px);
@@ -83,8 +85,12 @@
 
 /* Contact Section */
 .#{$prefix}-contact {
-  .#{$prefix}-row {
-    gap: 8px;
+  padding-bottom: 0;
+
+  .contact-image {
+    height: 800px;
+    max-height: 800px;
+    overflow: hidden;
   }
 
   .#{$prefix}-tool-tip {

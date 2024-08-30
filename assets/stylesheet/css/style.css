@@ -1,3 +1,25 @@
+@-webkit-keyframes kenburns-top {
+  0% {
+    -webkit-transform: scale(1) translateY(0);
+    transform: scale(1) translateY(0);
+    -webkit-transform-origin: 50% 16%;
+    transform-origin: 50% 16%; }
+  100% {
+    -webkit-transform: scale(1.25) translateY(-15px);
+    transform: scale(1.25) translateY(-15px);
+    -webkit-transform-origin: top;
+    transform-origin: top; } }
+@keyframes kenburns-top {
+  0% {
+    -webkit-transform: scale(1) translateY(0);
+    transform: scale(1) translateY(0);
+    -webkit-transform-origin: 50% 16%;
+    transform-origin: 50% 16%; }
+  100% {
+    -webkit-transform: scale(1.25) translateY(-15px);
+    transform: scale(1.25) translateY(-15px);
+    -webkit-transform-origin: top;
+    transform-origin: top; } }
 .arc-row {
   display: flex;
   flex-wrap: wrap; }
@@ -2765,7 +2787,7 @@ textarea {
 .arc-header {
   padding: 8px 16px;
   letter-spacing: 4px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Poppins, sans-serif;
   width: 100%;
   z-index: 11; }
   .arc-header .arc-branding {
@@ -2822,16 +2844,22 @@ textarea {
     color: #fff; }
 
 /* Hero Section */
-.arc-hero .arc-hero-image::before {
-  content: "";
-  display: block;
-  position: absolute;
-  z-index: 10;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(#00000000, #ffeaa799 100%); }
+.arc-hero .arc-hero-image {
+  overflow: hidden; }
+  .arc-hero .arc-hero-image::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#00000000, #ffeaa799 100%); }
 .arc-hero .hero-img {
-  height: 300px; }
+  height: 300px;
+  -webkit-animation: kenburns-top 5s ease-out infinite alternate both;
+  -moz-animation: kenburns-top 5s ease-out infinite alternate both;
+  -ms-animation: kenburns-top 5s ease-out infinite alternate both;
+  animation: kenburns-top 5s ease-out infinite alternate both; }
   @media screen and (min-width: 576px) {
     .arc-hero .hero-img {
       height: calc(100vh - 80px);
@@ -2845,7 +2873,7 @@ textarea {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%); }
   .arc-hero .arc-hero-text h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Poppins, sans-serif;
     font-size: 36px;
     letter-spacing: 4px; }
     .arc-hero .arc-hero-text h1 .hero-text-large {
@@ -2876,11 +2904,15 @@ textarea {
     opacity: 0.6; }
 
 /* Contact Section */
-.arc-contact .arc-row {
-  gap: 8px; }
-.arc-contact .arc-tool-tip {
-  cursor: pointer; }
-  .arc-contact .arc-tool-tip:hover span {
-    display: block; }
+.arc-contact {
+  padding-bottom: 0; }
+  .arc-contact .contact-image {
+    height: 800px;
+    max-height: 800px;
+    overflow: hidden; }
+  .arc-contact .arc-tool-tip {
+    cursor: pointer; }
+    .arc-contact .arc-tool-tip:hover span {
+      display: block; }
 
 /*# sourceMappingURL=style.css.map */
