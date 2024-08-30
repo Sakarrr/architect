@@ -1,0 +1,27 @@
+.#{$prefix}-tool-tip {
+  position: relative;
+
+  span {
+    display: none;
+    white-space: nowrap;
+    font-size: 12px;
+    position: absolute;
+    background-color: #000;
+    color: #fff;
+    padding: 8px;
+    border-radius: 5px;
+    top: -35px;
+    left: -50px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: black transparent transparent transparent;
+    }
+  }
+}

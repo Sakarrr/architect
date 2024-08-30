@@ -350,6 +350,29 @@ a {
 .arc-bg-white {
   background-color: white; }
 
+.arc-tool-tip {
+  position: relative; }
+  .arc-tool-tip span {
+    display: none;
+    white-space: nowrap;
+    font-size: 12px;
+    position: absolute;
+    background-color: #000;
+    color: #fff;
+    padding: 8px;
+    border-radius: 5px;
+    top: -35px;
+    left: -50px; }
+    .arc-tool-tip span::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: black transparent transparent transparent; }
+
 .arc-header {
   padding: 8px 16px;
   letter-spacing: 4px;
@@ -457,6 +480,14 @@ a {
     filter: grayscale(80%); }
   .arc-designer-card span {
     opacity: 0.6; }
+
+/* Contact Section */
+.arc-contact .arc-row {
+  gap: 8px; }
+.arc-contact .arc-tool-tip {
+  cursor: pointer; }
+  .arc-contact .arc-tool-tip:hover span {
+    display: block; }
 
 /* Margin Classes */
 .arc-m-auto {

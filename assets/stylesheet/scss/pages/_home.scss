@@ -63,3 +63,20 @@
     opacity: 0.6;
   }
 }
+
+/* Contact Section */
+.#{$prefix}-contact {
+  .#{$prefix}-row {
+    gap: 8px;
+  }
+
+  .#{$prefix}-tool-tip {
+    cursor: pointer;
+
+    &:hover {
+      span {
+        display: block;
+      }
+    }
+  }
+}
