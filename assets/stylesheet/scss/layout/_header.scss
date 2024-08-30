@@ -1,10 +1,9 @@
 .#{$prefix}-header {
   background: #00000036;
-  color: #fff;
+  color: $color-white;
   padding: 8px 16px;
   letter-spacing: 4px;
   font-family: $base-typography;
-  // background-color: #fff;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   width: 100%;
   z-index: 5;
@@ -28,7 +27,7 @@
       }
 
       &:hover {
-        background-color: #ccc;
+        background-color: $color-background;
       }
     }
   }
@@ -42,7 +41,7 @@
         padding: 20px 16px;
 
         &:hover {
-          background-color: #ccc;
+          background-color: $color-background;
 
           .#{$prefix}-menu-level-1 {
             display: block;
@@ -69,7 +68,7 @@
       padding: 20px 10px;
 
       &:hover {
-        background-color: #ccc;
+        background-color: $color-background;
 
         &:hover {
           .#{$prefix}-menu-level-2 {

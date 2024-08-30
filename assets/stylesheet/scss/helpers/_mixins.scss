@@ -7,7 +7,7 @@
   &:hover {
     cursor: pointer;
     box-shadow: $box-shadow;
-    color: #fff;
+    color: $color-white;
     transform: $transform;
     @include transition;
   }

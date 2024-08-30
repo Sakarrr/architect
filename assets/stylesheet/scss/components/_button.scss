@@ -1,12 +1,12 @@
 .#{$prefix}-btn-primary {
-  color: #121212;
+  color: $color-black;
   background-color: #f1f1f1;
   border: none;
   padding: 8px 12px;
   cursor: pointer;
 
   &:hover {
-    background-color: #ccc;
+    background-color: $color-background;
     @include transition;
   }
 
@@ -15,12 +15,12 @@
   }
 
   &.#{$prefix}-btn-bg-black {
-    background-color: #000;
-    color: #fff;
+    background-color: $color-black;
+    color: $color-white;
 
     &:hover {
-      color: #000;
-      background-color: #ccc;
+      color: $color-black;
+      background-color: $color-background;
       @include transition;
     }
   }

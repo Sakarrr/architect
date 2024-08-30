@@ -12,7 +12,7 @@ $borders: (
 @each $classname, $border in $borders {
   @for $i from 1 to 4 {
     .#{$classname}-#{$i} {
-      #{$border}: #{$i}px solid #000;
+      #{$border}: #{$i}px solid $color-black;
     }
   }
 }
@@ -21,7 +21,7 @@ $borders: (
   @for $i from 1 to 4 {
     @each $screen in $screens {
       .#{$classname}-#{$screen}-#{$i} {
-        #{$border}: #{$i}px solid #000;
+        #{$border}: #{$i}px solid $color-black;
       }
     }
   }

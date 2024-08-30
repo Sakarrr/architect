@@ -15,7 +15,7 @@
   }
 
   .#{$prefix}-hero-text {
-    color: #fff;
+    color: $color-white;
     z-index: 3;
     top: 50%;
     left: 50%;
@@ -28,7 +28,7 @@
 
       .hero-text-large {
         padding: 8px 16px;
-        background-color: rgba($color: #000, $alpha: 0.75);
+        background-color: rgba($color: $color-black, $alpha: 0.75);
       }
 
       .hero-text-small {

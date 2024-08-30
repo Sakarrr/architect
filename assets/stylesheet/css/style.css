@@ -2705,7 +2705,7 @@ a {
   align-items: center; }
 
 .arc-btn-primary {
-  color: #121212;
+  color: #000;
   background-color: #f1f1f1;
   border: none;
   padding: 8px 12px;
@@ -2792,7 +2792,7 @@ textarea {
       margin-left: -5px;
       border-width: 5px;
       border-style: solid;
-      border-color: black transparent transparent transparent; }
+      border-color: #000 transparent transparent transparent; }
 
 .arc-header {
   background: #00000036;
