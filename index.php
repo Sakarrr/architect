@@ -13,6 +13,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
     <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -202,6 +204,109 @@
         </div>
     </div>
 
+    <!-- Slider Section -->
+    <div class="arc-slider arc-section-spacing" id="arc-about">
+        <div class="arc-container">
+            <div class="arc-section-header">
+                <h2 class="section-heading arc-fs-xl">About</h2>
+
+                <div class="section-description arc-pt-4">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                        ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                        mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.
+                    </p>
+                </div>
+            </div>
+
+            <div class="arc-designers-list">
+                <div class="arc-row">
+                    <section class="splide" aria-label="Splide Basic HTML Example">
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide">
+                                    <div class=" arc-col">
+                                        <div class="arc-designer-card arc-mt-6 arc-bg-white">
+                                            <div class="arc-image-section">
+                                                <img src="https://www.w3schools.com/w3images/team2.jpg" class='arc-img-cover'>
+                                            </div>
+                                            <div class="arc-card-content">
+                                                <h3 class="arc-fs-xl arc-pt-2">John Doe</h3>
+                                                <span class="arc-pt-3">CEO & Founder</span>
+                                                <p class="arc-pt-3">
+                                                    Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                                                </p>
+                                                <button class="arc-btn-primary arc-btn-fluid arc-mt-3">Contact</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="splide__slide">
+                                    <div class="arc-col">
+                                        <div class="arc-designer-card arc-mt-6 arc-bg-white">
+                                            <div class="arc-image-section">
+                                                <img src="https://www.w3schools.com/w3images/team1.jpg" class='arc-img-cover'>
+                                            </div>
+                                            <div class="arc-card-content">
+                                                <h3 class="arc-fs-xl arc-pt-2">Jane Doe</h3>
+                                                <span class="arc-pt-3">Designer</span>
+                                                <p class="arc-pt-3">
+                                                    Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                                                </p>
+                                                <button class="arc-btn-primary arc-btn-fluid arc-mt-3">Contact</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="splide__slide">
+                                    <div class="arc-col">
+                                        <div class="arc-designer-card arc-mt-6 arc-bg-white">
+                                            <div class="arc-image-section">
+                                                <img src="https://www.w3schools.com/w3images/team3.jpg" class='arc-img-cover'>
+                                            </div>
+                                            <div class="arc-card-content">
+                                                <h3 class="arc-fs-xl arc-pt-2">Mike Ross</h3>
+                                                <span class="arc-pt-3">Architect</span>
+                                                <p class="arc-pt-3">
+                                                    Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                                                </p>
+                                                <button class="arc-btn-primary arc-btn-fluid arc-mt-3">Contact</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="splide__slide">
+                                    <div class="arc-col">
+                                        <div class=" arc-designer-card arc-mt-6 arc-bg-white">
+                                            <div class="arc-image-section">
+                                                <img src="https://www.w3schools.com/w3images/team4.jpg" class='arc-img-cover'>
+                                            </div>
+                                            <div class="arc-card-content">
+                                                <h3 class="arc-fs-xl arc-pt-2">Dan Star</h3>
+                                                <span class="arc-pt-3">Architect</span>
+                                                <p class="arc-pt-3">
+                                                    Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                                                </p>
+                                                <button class="arc-btn-primary arc-btn-fluid arc-mt-3">Contact</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Contact Section -->
     <div class="arc-contact arc-section-spacing arc-pb-0" id="arc-contact">
         <div class="arc-container">
@@ -242,7 +347,9 @@
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
     <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/splide.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 </body>
 

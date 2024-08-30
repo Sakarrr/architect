@@ -2911,6 +2911,10 @@ textarea {
   .arc-designer-card span {
     opacity: 0.6; }
 
+/* Slider Section */
+.arc-slider .splide {
+  max-width: 100%; }
+
 /* Contact Section */
 .arc-contact {
   padding-bottom: 0; }

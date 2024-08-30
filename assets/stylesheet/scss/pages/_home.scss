@@ -70,6 +70,13 @@
   }
 }
 
+/* Slider Section */
+.#{$prefix}-slider {
+  .splide {
+    max-width: 100%;
+  }
+}
+
 /* Contact Section */
 .#{$prefix}-contact {
   padding-bottom: 0;
