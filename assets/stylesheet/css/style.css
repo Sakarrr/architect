@@ -2800,6 +2800,7 @@ textarea {
   padding: 8px 16px;
   letter-spacing: 4px;
   font-family: Poppins, sans-serif;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   width: 100%;
   z-index: 5; }
   .arc-header a {
