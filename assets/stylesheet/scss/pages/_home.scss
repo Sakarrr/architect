@@ -6,7 +6,7 @@
 
   .hero-img {
     height: 300px;
-    @include animation("kenburns-top 5s ease-out infinite alternate both");
+    @include animation("arc-kenburns-top 5s ease-out infinite alternate both");
 
     @include breakpoints("sm") {
       height: calc(100vh - 80px);
