@@ -81,7 +81,7 @@
 
     <!-- Hero Section -->
     <div class="arc-hero arc-position-relative" id="arc-hero">
-        <div class="arc-hero-image">
+        <div class="arc-hero-image arc-overlay">
             <img src="https://www.w3schools.com/w3images/architect.jpg" class="hero-img">
         </div>
 

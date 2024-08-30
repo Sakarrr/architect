@@ -31,8 +31,10 @@ $(document).ready(function () {
 
     if ($(window).scrollTop() > scrollHeight) {
       div.css("background-color", "#fff");
+      div.css("color", "#000");
     } else {
-      div.css("background-color", "transparent");
+      div.css("background-color", "#00000036");
+      div.css("color", "#fff");
     }
   });
 });

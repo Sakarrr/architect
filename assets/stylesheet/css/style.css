@@ -2743,6 +2743,15 @@ textarea {
 textarea {
   field-sizing: content; }
 
+.arc-overlay::before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.623); }
+
 .arc-project-tag {
   padding: 8px 16px;
   background-color: #000;
@@ -2785,11 +2794,15 @@ textarea {
       border-color: black transparent transparent transparent; }
 
 .arc-header {
+  background: #00000036;
+  color: #fff;
   padding: 8px 16px;
   letter-spacing: 4px;
   font-family: Poppins, sans-serif;
   width: 100%;
-  z-index: 11; }
+  z-index: 5; }
+  .arc-header a {
+    color: inherit; }
   .arc-header .arc-branding {
     padding: 8px 0; }
     @media screen and (min-width: 768px) {
@@ -2811,30 +2824,30 @@ textarea {
         background-color: #ccc; }
         .arc-header .arc-menu li a:hover .arc-menu-level-1 {
           display: block; }
-    .arc-header .arc-menu .arc-menu-level-1 {
-      display: none;
-      position: absolute;
-      min-width: 160px;
-      background: #fff;
-      z-index: 1;
-      top: 100%; }
-      .arc-header .arc-menu .arc-menu-level-1 .arc-submenu {
-        position: relative;
-        padding: 20px 10px; }
-        .arc-header .arc-menu .arc-menu-level-1 .arc-submenu:hover {
-          background-color: #ccc; }
-          .arc-header .arc-menu .arc-menu-level-1 .arc-submenu:hover:hover .arc-menu-level-2 {
-            display: block; }
-    .arc-header .arc-menu .arc-menu-level-2 {
-      display: none;
-      position: absolute;
-      background-color: #fff;
-      min-width: 160px;
-      left: 100%;
-      top: 0; }
     @media screen and (min-width: 576px) {
       .arc-header .arc-menu {
         display: flex; } }
+  .arc-header .arc-menu-level-1 {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    background: #3d72a4;
+    z-index: 1;
+    top: 100%; }
+    .arc-header .arc-menu-level-1 .arc-submenu {
+      position: relative;
+      padding: 20px 10px; }
+      .arc-header .arc-menu-level-1 .arc-submenu:hover {
+        background-color: #ccc; }
+        .arc-header .arc-menu-level-1 .arc-submenu:hover:hover .arc-menu-level-2 {
+          display: block; }
+  .arc-header .arc-menu-level-2 {
+    display: none;
+    position: absolute;
+    background-color: #3d72a4;
+    min-width: 160px;
+    left: 100%;
+    top: 0; }
 
 .arc-footer {
   background-color: #000;
@@ -2846,14 +2859,6 @@ textarea {
 /* Hero Section */
 .arc-hero .arc-hero-image {
   overflow: hidden; }
-  .arc-hero .arc-hero-image::before {
-    content: "";
-    display: block;
-    position: absolute;
-    z-index: 10;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(#00000000, #ffeaa799 100%); }
 .arc-hero .hero-img {
   height: 300px;
   -webkit-animation: kenburns-top 5s ease-out infinite alternate both;
@@ -2866,6 +2871,7 @@ textarea {
       min-height: 600px; } }
 .arc-hero .arc-hero-text {
   color: #fff;
+  z-index: 3;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
