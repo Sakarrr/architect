@@ -56,9 +56,11 @@
 .#{$prefix}-about {
   background-color: #b0bec5;
 }
+
 .#{$prefix}-designer-card {
   padding: 15px 15px 30px;
-  .arc-image-section {
+
+  .#{$prefix}-image-section {
     height: 300px;
   }
   img {
