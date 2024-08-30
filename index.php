@@ -50,12 +50,11 @@
     ?>
     <!-- Header Section -->
     <div class="arc-header arc-position-fixed">
-        <div class="arc-container-fluid">
-            <div class="arc-row">
-                <div class="arc-branding"> <a href="#arc-hero"><b>BR</b> Architects</a></div>
-                <div class="arc-menu">
-                    <ul class="arc-row">
-                        <li><a href="#arc-projects">Projects
+        <div class="arc-container-flui arc-flex arc-justify-content-between arc-align-items-center">
+            <div class="arc-branding"> <a href="#arc-hero"><b>BR</b> Architects</a></div>
+            <div class="arc-menu">
+                <ul class="arc-flex">
+                    <li><a href="#arc-projects">Projects
                             <ul class="arc-menu-level-1">
                                 <li class="arc-submenu">Project 1</li>
                                 <li class="arc-submenu">Project 2
@@ -66,11 +65,10 @@
                                 </li>
                             </ul>
                         </a>
-                        </li>
-                        <li><a href="#arc-about">About</a></li>
-                        <li><a href="#arc-contact">Contact</a></li>
-                    </ul>
-                </div>
+                    </li>
+                    <li><a href="#arc-about">About</a></li>
+                    <li><a href="#arc-contact">Contact</a></li>
+                </ul>
             </div>
         </div>
     </div>
@@ -151,7 +149,7 @@
                     <div class="arc-col arc-col-sm-6 arc-col-md-3">
                         <div class="arc-designer-card arc-mt-6 arc-bg-white">
                             <div class="arc-image-section">
-                                <img src="https://www.w3schools.com/w3images/team1.jpg" class='arc-img-cover' >
+                                <img src="https://www.w3schools.com/w3images/team1.jpg" class='arc-img-cover'>
                             </div>
                             <div class="arc-card-content">
                                 <h3 class="arc-fs-xl arc-pt-2">Jane Doe</h3>
@@ -166,31 +164,31 @@
                     <div class="arc-col arc-col-sm-6 arc-col-md-3">
                         <div class="arc-designer-card arc-mt-6 arc-bg-white">
                             <div class="arc-image-section">
-                        <img src="https://www.w3schools.com/w3images/team3.jpg" class='arc-img-cover'>
-                        </div>
-                        <div class="arc-card-content">
-                            <h3 class="arc-fs-xl arc-pt-2">Mike Ross</h3>
-                            <span class="arc-pt-3">Architect</span>
-                            <p class="arc-pt-3">
-                                Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
-                            </p>
-                            <button class="arc-btn-primary arc-btn-fluid arc-mt-3">Contact</button>
+                                <img src="https://www.w3schools.com/w3images/team3.jpg" class='arc-img-cover'>
+                            </div>
+                            <div class="arc-card-content">
+                                <h3 class="arc-fs-xl arc-pt-2">Mike Ross</h3>
+                                <span class="arc-pt-3">Architect</span>
+                                <p class="arc-pt-3">
+                                    Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                                </p>
+                                <button class="arc-btn-primary arc-btn-fluid arc-mt-3">Contact</button>
                             </div>
                         </div>
                     </div>
                     <div class="arc-col arc-col-sm-6 arc-col-md-3">
                         <div class="arc-designer-card arc-mt-6 arc-bg-white">
                             <div class="arc-image-section">
-                        <img src="https://www.w3schools.com/w3images/team4.jpg" class='arc-img-cover'>
-                        </div>
-                        <div class="arc-card-content">
-                            <h3 class="arc-fs-xl arc-pt-2">Dan Star</h3>
-                            <span class="arc-pt-3">Architect</span>
-                            <p class="arc-pt-3">
-                                Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
-                            </p>
-                            <button class="arc-btn-primary arc-btn-fluid arc-mt-3">Contact</button>
-                        </div>
+                                <img src="https://www.w3schools.com/w3images/team4.jpg" class='arc-img-cover'>
+                            </div>
+                            <div class="arc-card-content">
+                                <h3 class="arc-fs-xl arc-pt-2">Dan Star</h3>
+                                <span class="arc-pt-3">Architect</span>
+                                <p class="arc-pt-3">
+                                    Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                                </p>
+                                <button class="arc-btn-primary arc-btn-fluid arc-mt-3">Contact</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -202,11 +200,9 @@
     <div class="arc-contact arc-section-spacing arc-pb-0" id="arc-contact">
         <div class="arc-container">
             <div class="arc-section-header">
-                <h2 class="section-heading arc-fs-xl">
-                    <div class="arc-row">
-                        Contact <div class="arc-tool-tip">
-                            <ion-icon name="information-circle-outline"></ion-icon><span>Contact Me Tool Tip!!!</span>
-                        </div>
+                <h2 class="section-heading arc-flex arc-fs-xl">
+                    Contact <div class="arc-tool-tip arc-ml-1">
+                        <ion-icon name="information-circle-outline"></ion-icon><span>Contact Me Tool Tip!!!</span>
                     </div>
                 </h2>
 

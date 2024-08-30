@@ -36,3 +36,15 @@
 .#{$prefix}-text-right {
   text-align: right;
 }
+
+.#{$prefix}-flex {
+  display: flex;
+}
+
+.#{$prefix}-justify-content-between {
+  justify-content: space-between;
+}
+
+.#{$prefix}-align-items-center {
+  align-items: center;
+}
