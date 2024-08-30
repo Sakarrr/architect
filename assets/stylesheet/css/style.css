@@ -2755,7 +2755,8 @@ textarea {
 .arc-project-tag {
   padding: 8px 16px;
   background-color: #000;
-  color: #fff; }
+  color: #fff;
+  z-index: 3; }
 
 .arc-section-header .section-heading {
   font-weight: 400;

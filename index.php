@@ -106,7 +106,7 @@
                         echo '<div class="arc-col arc-col-sm-6 arc-col-md-3">';
                         echo '<div class="arc-project arc-position-relative arc-mt-4">';
                         echo '<div class="arc-project-tag arc-position-absolute">' . $project["tag"] . '</div>';
-                        echo '<div class="arc-image-section">';
+                        echo '<div class="arc-image-section arc-overlay">';
                         echo '<img src="' . $project["link"] . '" class="arc-img-cover">';
                         echo '</div>';
                         echo '</div>';
