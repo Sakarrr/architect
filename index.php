@@ -204,6 +204,35 @@
         </div>
     </div>
 
+    <!-- Contact Section -->
+    <div class="arc-contact arc-section-spacing arc-pb-0" id="arc-contact">
+        <div class="arc-container">
+            <div class="arc-section-header">
+                <h2 class="section-heading arc-flex arc-fs-xl">
+                    Contact <div class="arc-tool-tip arc-ml-1">
+                        <ion-icon name="information-circle-outline"></ion-icon><span>Contact Me Tool Tip!!!</span>
+                    </div>
+                </h2>
+
+                <div class="section-description arc-pt-4">
+                    <p>
+                        Lets get in touch and talk about your next project.
+                    </p>
+                </div>
+            </div>
+
+            <div class="arc-form arc-pt-4">
+                <form class="arc-contact-form">
+                    <input class="arc-mt-4 arc-p-2" type="text" placeholder="Name">
+                    <input class="arc-mt-4 arc-p-2" type="text" placeholder="Email">
+                    <input class="arc-mt-4 arc-p-2" type="text" placeholder="Subject">
+                    <textarea class="arc-mt-4 arc-p-2" cols="2" rows="2" placeholder="Comment"></textarea>
+                    <button class="arc-btn-primary arc-btn-bg-black arc-mt-4">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
     <!-- Slider Section -->
     <div class="arc-slider arc-about arc-section-spacing" id="arc-about">
         <div class="arc-container">
@@ -293,41 +322,12 @@
         </div>
     </div>
 
-    <!-- Contact Section -->
-    <div class="arc-contact arc-section-spacing arc-pb-0" id="arc-contact">
-        <div class="arc-container">
-            <div class="arc-section-header">
-                <h2 class="section-heading arc-flex arc-fs-xl">
-                    Contact <div class="arc-tool-tip arc-ml-1">
-                        <ion-icon name="information-circle-outline"></ion-icon><span>Contact Me Tool Tip!!!</span>
-                    </div>
-                </h2>
-
-                <div class="section-description arc-pt-4">
-                    <p>
-                        Lets get in touch and talk about your next project.
-                    </p>
-                </div>
-            </div>
-
-            <div class="arc-form arc-pt-4">
-                <form class="arc-contact-form">
-                    <input class="arc-mt-4 arc-p-2" type="text" placeholder="Name">
-                    <input class="arc-mt-4 arc-p-2" type="text" placeholder="Email">
-                    <input class="arc-mt-4 arc-p-2" type="text" placeholder="Subject">
-                    <textarea class="arc-mt-4 arc-p-2" cols="2" rows="2" placeholder="Comment"></textarea>
-                    <button class="arc-btn-primary arc-btn-bg-black arc-mt-4">Send Message</button>
-                </form>
-            </div>
-        </div>
-        <div class="contact-image arc-mt-8">
+    <!-- Footer Section -->
+    <div class="arc-footer arc-text-center">
+        <div class="contact-image">
             <img src="https://www.w3schools.com/w3images/map.jpg" class="arc-img-cover">
         </div>
-    </div>
-
-    <!-- Footer Section -->
-    <div class="arc-footer arc-p-7 arc-text-center">
-        <p>
+        <p class="arc-p-7">
             Powered by <a href="">W3.css</a>
         </p>
     </div>

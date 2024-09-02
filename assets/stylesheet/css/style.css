@@ -2917,15 +2917,9 @@ textarea {
   max-width: 100%; }
 
 /* Contact Section */
-.arc-contact {
-  padding-bottom: 0; }
-  .arc-contact .contact-image {
-    height: 800px;
-    max-height: 800px;
-    overflow: hidden; }
-  .arc-contact .arc-tool-tip {
-    cursor: pointer; }
-    .arc-contact .arc-tool-tip:hover span {
-      display: block; }
+.arc-contact .arc-tool-tip {
+  cursor: pointer; }
+  .arc-contact .arc-tool-tip:hover span {
+    display: block; }
 
 /*# sourceMappingURL=style.css.map */

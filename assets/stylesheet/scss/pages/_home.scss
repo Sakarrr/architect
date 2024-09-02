@@ -81,14 +81,6 @@
 
 /* Contact Section */
 .#{$prefix}-contact {
-  padding-bottom: 0;
-
-  .contact-image {
-    height: 800px;
-    max-height: 800px;
-    overflow: hidden;
-  }
-
   .#{$prefix}-tool-tip {
     cursor: pointer;
 
