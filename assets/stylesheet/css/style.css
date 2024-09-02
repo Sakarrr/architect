@@ -277,7 +277,6 @@ body {
 
 img {
   vertical-align: middle;
-  width: 100%;
   max-width: 100%;
   height: auto; }
 
@@ -2857,6 +2856,7 @@ textarea {
 .arc-hero .arc-hero-image {
   overflow: hidden; }
 .arc-hero .hero-img {
+  width: 100%;
   height: 300px;
   -webkit-animation: arc-kenburns-top 5s ease-out infinite alternate both;
   -moz-animation: arc-kenburns-top 5s ease-out infinite alternate both;
