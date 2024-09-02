@@ -9,10 +9,6 @@ $corners: (
   "#{$prefix}-pl": "padding-left",
 );
 
-.#{$prefix}-p-auto {
-  padding: auto;
-}
-
 @each $classname, $padding in $corners {
   @for $i from 0 to 18 {
     .#{$classname}-#{$i} {
