@@ -205,7 +205,7 @@
     </div>
 
     <!-- Slider Section -->
-    <div class="arc-slider arc-section-spacing" id="arc-about">
+    <div class="arc-slider arc-about arc-section-spacing" id="arc-about">
         <div class="arc-container">
             <div class="arc-section-header">
                 <h2 class="section-heading arc-fs-xl">About</h2>
@@ -223,82 +223,72 @@
             </div>
 
             <div class="arc-designers-list">
-                <div class="arc-row">
-                    <section class="splide" aria-label="Splide Basic HTML Example">
-                        <div class="splide__track">
-                            <ul class="splide__list">
-                                <li class="splide__slide">
-                                    <div class=" arc-col">
-                                        <div class="arc-designer-card arc-mt-6 arc-bg-white">
-                                            <div class="arc-image-section">
-                                                <img src="https://www.w3schools.com/w3images/team2.jpg" class='arc-img-cover'>
-                                            </div>
-                                            <div class="arc-card-content">
-                                                <h3 class="arc-fs-xl arc-pt-2">John Doe</h3>
-                                                <span class="arc-pt-3">CEO & Founder</span>
-                                                <p class="arc-pt-3">
-                                                    Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
-                                                </p>
-                                                <button class="arc-btn-primary arc-btn-fluid arc-mt-3">Contact</button>
-                                            </div>
-                                        </div>
+                <section class="splide" aria-label="Splide Basic HTML Example">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <div class="arc-designer-card arc-mt-6 arc-bg-white">
+                                    <div class="arc-image-section">
+                                        <img src="https://www.w3schools.com/w3images/team2.jpg" class='arc-img-cover'>
                                     </div>
-                                </li>
-                                <li class="splide__slide">
-                                    <div class="arc-col">
-                                        <div class="arc-designer-card arc-mt-6 arc-bg-white">
-                                            <div class="arc-image-section">
-                                                <img src="https://www.w3schools.com/w3images/team1.jpg" class='arc-img-cover'>
-                                            </div>
-                                            <div class="arc-card-content">
-                                                <h3 class="arc-fs-xl arc-pt-2">Jane Doe</h3>
-                                                <span class="arc-pt-3">Designer</span>
-                                                <p class="arc-pt-3">
-                                                    Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
-                                                </p>
-                                                <button class="arc-btn-primary arc-btn-fluid arc-mt-3">Contact</button>
-                                            </div>
-                                        </div>
+                                    <div class="arc-card-content">
+                                        <h3 class="arc-fs-xl arc-pt-2">John Doe</h3>
+                                        <span class="arc-pt-3">CEO & Founder</span>
+                                        <p class="arc-pt-3">
+                                            Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                                        </p>
+                                        <button class="arc-btn-primary arc-btn-fluid arc-mt-3">Contact</button>
                                     </div>
-                                </li>
-                                <li class="splide__slide">
-                                    <div class="arc-col">
-                                        <div class="arc-designer-card arc-mt-6 arc-bg-white">
-                                            <div class="arc-image-section">
-                                                <img src="https://www.w3schools.com/w3images/team3.jpg" class='arc-img-cover'>
-                                            </div>
-                                            <div class="arc-card-content">
-                                                <h3 class="arc-fs-xl arc-pt-2">Mike Ross</h3>
-                                                <span class="arc-pt-3">Architect</span>
-                                                <p class="arc-pt-3">
-                                                    Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
-                                                </p>
-                                                <button class="arc-btn-primary arc-btn-fluid arc-mt-3">Contact</button>
-                                            </div>
-                                        </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="arc-designer-card arc-mt-6 arc-bg-white">
+                                    <div class="arc-image-section">
+                                        <img src="https://www.w3schools.com/w3images/team1.jpg" class='arc-img-cover'>
                                     </div>
-                                </li>
-                                <li class="splide__slide">
-                                    <div class="arc-col">
-                                        <div class=" arc-designer-card arc-mt-6 arc-bg-white">
-                                            <div class="arc-image-section">
-                                                <img src="https://www.w3schools.com/w3images/team4.jpg" class='arc-img-cover'>
-                                            </div>
-                                            <div class="arc-card-content">
-                                                <h3 class="arc-fs-xl arc-pt-2">Dan Star</h3>
-                                                <span class="arc-pt-3">Architect</span>
-                                                <p class="arc-pt-3">
-                                                    Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
-                                                </p>
-                                                <button class="arc-btn-primary arc-btn-fluid arc-mt-3">Contact</button>
-                                            </div>
-                                        </div>
+                                    <div class="arc-card-content">
+                                        <h3 class="arc-fs-xl arc-pt-2">Jane Doe</h3>
+                                        <span class="arc-pt-3">Designer</span>
+                                        <p class="arc-pt-3">
+                                            Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                                        </p>
+                                        <button class="arc-btn-primary arc-btn-fluid arc-mt-3">Contact</button>
                                     </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </section>
-                </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="arc-designer-card arc-mt-6 arc-bg-white">
+                                    <div class="arc-image-section">
+                                        <img src="https://www.w3schools.com/w3images/team3.jpg" class='arc-img-cover'>
+                                    </div>
+                                    <div class="arc-card-content">
+                                        <h3 class="arc-fs-xl arc-pt-2">Mike Ross</h3>
+                                        <span class="arc-pt-3">Architect</span>
+                                        <p class="arc-pt-3">
+                                            Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                                        </p>
+                                        <button class="arc-btn-primary arc-btn-fluid arc-mt-3">Contact</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class=" arc-designer-card arc-mt-6 arc-bg-white">
+                                    <div class="arc-image-section">
+                                        <img src="https://www.w3schools.com/w3images/team4.jpg" class='arc-img-cover'>
+                                    </div>
+                                    <div class="arc-card-content">
+                                        <h3 class="arc-fs-xl arc-pt-2">Dan Star</h3>
+                                        <span class="arc-pt-3">Architect</span>
+                                        <p class="arc-pt-3">
+                                            Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                                        </p>
+                                        <button class="arc-btn-primary arc-btn-fluid arc-mt-3">Contact</button>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
             </div>
         </div>
     </div>
