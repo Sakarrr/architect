@@ -2844,6 +2844,9 @@ textarea {
     .arc-header .arc-sub-menu .arc-submenu {
       position: relative;
       padding: 20px 10px; }
+  .arc-header.sticky-header {
+    background-color: #fff;
+    color: #000; }
 
 .arc-footer {
   background-color: #000;

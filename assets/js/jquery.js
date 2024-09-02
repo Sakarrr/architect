@@ -30,11 +30,9 @@ $(document).ready(function () {
     var div = $(".arc-header");
 
     if ($(window).scrollTop() > scrollHeight) {
-      div.css("background-color", "#fff");
-      div.css("color", "#000");
+      div.addClass("sticky-header");
     } else {
-      div.css("background-color", "#00000036");
-      div.css("color", "#fff");
+      div.removeClass("sticky-header");
     }
   });
 });
