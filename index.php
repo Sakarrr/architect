@@ -63,16 +63,16 @@
                 <ul class="arc-flex">
                     <li>
                         <a href="#arc-projects">Projects
-                            <ul class="arc-menu-level-1">
-                                <li class="arc-submenu">Project 1</li>
-                                <li class="arc-submenu">Project 2
-                                    <ul class="arc-menu-level-2">
-                                        <li class="arc-submenu">Project 1</li>
-                                        <li class="arc-submenu">Project 2</li>
-                                    </ul>
-                                </li>
-                            </ul>
                         </a>
+                        <ul class="arc-sub-menu">
+                            <li class="arc-submenu">Project 1</li>
+                            <li class="arc-submenu">Project 2
+                                <ul class="arc-sub-menu">
+                                    <li class="arc-submenu">Project 1</li>
+                                    <li class="arc-submenu">Project 2</li>
+                                </ul>
+                            </li>
+                        </ul>
                     </li>
                     <li><a href="#arc-about">About</a></li>
                     <li><a href="#arc-contact">Contact</a></li>

@@ -35,17 +35,22 @@
   .#{$prefix}-menu {
     display: none;
 
+    & > ul > li > .#{$prefix}-sub-menu {
+      display: none;
+      top: 100%;
+      left: 0;
+    }
+
     li {
-      a {
-        position: relative;
-        padding: 20px 16px;
+      position: relative;
+      padding: 20px 16px;
 
-        &:hover {
-          background-color: $color-background;
+      &:hover {
+        background-color: $color-background;
+        cursor: pointer;
 
-          .#{$prefix}-menu-level-1 {
-            display: block;
-          }
+        & > .#{$prefix}-sub-menu {
+          display: block;
         }
       }
     }
@@ -55,36 +60,18 @@
     }
   }
 
-  .#{$prefix}-menu-level-1 {
+  .#{$prefix}-sub-menu {
     display: none;
     position: absolute;
     min-width: 160px;
     background: #3d72a4;
     z-index: 1;
-    top: 100%;
+    left: 100%;
+    top: 0;
 
     .#{$prefix}-submenu {
       position: relative;
       padding: 20px 10px;
-
-      &:hover {
-        background-color: $color-background;
-
-        &:hover {
-          .#{$prefix}-menu-level-2 {
-            display: block;
-          }
-        }
-      }
     }
-  }
-
-  .#{$prefix}-menu-level-2 {
-    display: none;
-    position: absolute;
-    background-color: #3d72a4;
-    min-width: 160px;
-    left: 100%;
-    top: 0;
   }
 }

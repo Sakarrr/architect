@@ -2825,37 +2825,32 @@ textarea {
         background-color: #ccc; }
   .arc-header .arc-menu {
     display: none; }
-    .arc-header .arc-menu li a {
+    .arc-header .arc-menu > ul > li > .arc-sub-menu {
+      display: none;
+      top: 100%;
+      left: 0; }
+    .arc-header .arc-menu li {
       position: relative;
       padding: 20px 16px; }
-      .arc-header .arc-menu li a:hover {
-        background-color: #ccc; }
-        .arc-header .arc-menu li a:hover .arc-menu-level-1 {
+      .arc-header .arc-menu li:hover {
+        background-color: #ccc;
+        cursor: pointer; }
+        .arc-header .arc-menu li:hover > .arc-sub-menu {
           display: block; }
     @media screen and (min-width: 576px) {
       .arc-header .arc-menu {
         display: flex; } }
-  .arc-header .arc-menu-level-1 {
+  .arc-header .arc-sub-menu {
     display: none;
     position: absolute;
     min-width: 160px;
     background: #3d72a4;
     z-index: 1;
-    top: 100%; }
-    .arc-header .arc-menu-level-1 .arc-submenu {
-      position: relative;
-      padding: 20px 10px; }
-      .arc-header .arc-menu-level-1 .arc-submenu:hover {
-        background-color: #ccc; }
-        .arc-header .arc-menu-level-1 .arc-submenu:hover:hover .arc-menu-level-2 {
-          display: block; }
-  .arc-header .arc-menu-level-2 {
-    display: none;
-    position: absolute;
-    background-color: #3d72a4;
-    min-width: 160px;
     left: 100%;
     top: 0; }
+    .arc-header .arc-sub-menu .arc-submenu {
+      position: relative;
+      padding: 20px 10px; }
 
 .arc-footer {
   background-color: #000;
