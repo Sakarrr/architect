@@ -57,7 +57,7 @@
     ?>
     <!-- Header Section -->
     <div class="arc-header arc-position-fixed">
-        <div class="arc-container-flui arc-flex arc-justify-content-between arc-align-items-center">
+        <div class="arc-container-fluid arc-flex arc-justify-content-between arc-align-items-center">
             <div class="arc-branding"> <a href="#arc-hero"><b>BR</b> Architects</a></div>
             <div class="arc-menu">
                 <ul class="arc-flex">
